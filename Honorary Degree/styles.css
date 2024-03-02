@@ -1,0 +1,124 @@
+body {
+    background-color: #F0FFF3;
+}
+
+h1{
+    color:#183E33;
+    font-size: 28px;
+    /* position: relative; */
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    line-height: 162%;
+    font-style: italic;
+}
+
+h2{
+    color: #183E33;
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Manrope", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+th{
+    background-color: #6A8A81;
+    font-family: "Manrope", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #F0FFF3;
+    padding: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td{
+    padding: 6px;
+    color:#183E33;
+    font-family: "Manrope", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+tr{
+    border-bottom: 1px solid #6A8A81;
+}
+
+#header_h1{
+    font-size: 48px;
+    color:#f0fff3;
+}
+
+.content {
+    background-color: white;
+    border-radius: 9px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    margin-top: 60px;
+    padding: 45px 90px;
+}
+
+.header{
+    padding: 81px 300px;
+    background-image: url('img/header.jpg');
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 500px;
+    min-height: 168px; 
+    position: relative;
+    z-index: 0;
+}
+
+
+#logo-text{
+    position: absolute;
+    font-family: Roboto Slab;
+    font-weight:bold;
+    font-size:10px;
+    color: #F0FFF3;
+    margin-top: -11px;
+    z-index: 1;
+}
+
+.img-preview{
+    border: 1px solid #18211e80;
+}
+
+@media only screen and (max-width: 720px){
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    td, th{
+        font-size: 11px;
+    }
+
+    .header{
+        padding: 81px 50px;
+    }
+
+    .content{
+        padding: 21px 33px;
+        margin-top: 30px;
+    }
+
+    #header_h1{
+        font-size: 30px;
+    }
+}
