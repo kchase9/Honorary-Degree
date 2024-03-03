@@ -32,19 +32,17 @@ a{
 }
 
 th{
-    background-color: #6A8A81;
+    background-color: #003478;
     font-family: "Manrope", Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #F0FFF3;
     padding: 6px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 td{
     padding: 6px;
     color:#183E33;
-    font-family: "Manrope", Arial, Helvetica, sans-serif;
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 
