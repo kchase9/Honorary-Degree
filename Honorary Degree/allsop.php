@@ -19,6 +19,10 @@
     <title>Jeannette Allsop</title>
 </head>
 <body>
+    <?php
+        include_once("header.php")
+    ?>
+<!-- Main Content Section -->
     <div class="rec">
 
     <div class="intro w-100" style="background-image: url('img/Allsop.jpg');">

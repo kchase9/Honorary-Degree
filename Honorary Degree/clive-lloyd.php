@@ -19,6 +19,9 @@
     <title>Clive Lloyd</title>
 </head>
 <body>
+    <?php
+        include_once("header.php")
+    ?>
     <div class="rec">
     <div class="intro w-100" style="background-image: url('img/clive-lloyd.jpeg');">
         <div class="container">

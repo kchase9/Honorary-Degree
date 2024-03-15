@@ -19,6 +19,9 @@
     <title>Letitia Wright</title>
 </head>
 <body>
+    <?php
+        include_once("header.php")
+    ?>
     <div class="rec">
 
     <div class="intro w-100" style="background-image: url('img/letitia-wright.jpg');">

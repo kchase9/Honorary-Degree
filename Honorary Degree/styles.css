@@ -64,7 +64,8 @@ tr{
 }
 
 .header{
-    padding: 81px 300px;
+    margin-top: -120px;
+    padding: 201px 300px;
     background-image: url('img/header.jpg');
     background-position: 50% 65%;
     background-repeat: no-repeat;
@@ -92,7 +93,8 @@ tr{
 
 /* Recipients */
 .intro {
-    padding: 200px 0;
+    margin-top: -120px;
+    padding: 220px 0;
     min-height: 540px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -181,7 +183,8 @@ hr{
     }
 
     .header{
-        padding: 81px 50px;
+        margin-top: -200px;
+        padding: 281px 50px;
     }
 
     .content{
@@ -221,7 +224,8 @@ hr{
     }
 
     .intro {
-        padding: 135px 0;
+        margin-top: -200px;
+        padding: 335px 0;
         min-height: 540px;
         background-position: 75% 75%;
         background-repeat: no-repeat;

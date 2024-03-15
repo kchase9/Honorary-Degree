@@ -19,6 +19,9 @@
     <title>Madame Desireee Bernard</title>
 </head>
 <body>
+    <?php
+        include_once("header.php")
+    ?>
     <div class="rec">
     <div class="intro w-100" style="background-image: url('img/madame-bernard.png');">
         <div class="container">

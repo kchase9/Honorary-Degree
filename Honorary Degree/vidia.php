@@ -19,6 +19,9 @@
     <title>Vidia S. Roopchand</title>
 </head>
 <body>
+    <?php
+        include_once("header.php")
+    ?>
     <div class="rec">
     <div class="intro w-100" style="background-image: url('img/vidia-roopchand.png');">
         <div class="container">
