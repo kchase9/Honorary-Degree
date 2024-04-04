@@ -63,9 +63,8 @@ tr{
     padding: 45px 90px;
 }
 
-.header{
-    margin-top: -120px;
-    padding: 201px 300px;
+.hero-section{
+    padding: 81px 300px;
     background-image: url('img/header.jpg');
     background-position: 50% 65%;
     background-repeat: no-repeat;
@@ -93,8 +92,7 @@ tr{
 
 /* Recipients */
 .intro {
-    margin-top: -120px;
-    padding: 220px 0;
+    padding: 100px 0;
     min-height: 540px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -182,9 +180,8 @@ hr{
         font-size: 11px;
     }
 
-    .header{
-        margin-top: -200px;
-        padding: 281px 50px;
+    .hero-section{
+        padding: 81px 50px;
     }
 
     .content{
@@ -224,8 +221,7 @@ hr{
     }
 
     .intro {
-        margin-top: -200px;
-        padding: 335px 0;
+        padding: 135px 0;
         min-height: 540px;
         background-position: 75% 75%;
         background-repeat: no-repeat;
@@ -235,3 +231,13 @@ hr{
         margin-bottom: 60px;
     }
 }
+
+
+/* Navbar Code */
+
+nav #navbar-top{
+    font-size: 16px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 0px;
+  }
