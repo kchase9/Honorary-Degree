@@ -4,7 +4,6 @@
   <head>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 
@@ -28,6 +27,10 @@
       top: 0;
     }
 
+    #CollapsingNavbar{
+      position: relative !important;
+    }
+
     #navbar-top{
       background-color: #092017;
     }
@@ -49,13 +52,16 @@
       padding: 8px 16px;
     }
 
-    #navbar-main {
+    nav#navbar-main {
       background-color: #f1ede3;
       box-shadow: 0 8px 6px -6px black;
       padding-top: 0px;
       padding-bottom: 0px;
     }
 
+    nav#navbar-main .container{
+      padding-right: 0px;
+    }
     .navbar-brand>img {
       height: 70px;
       width: auto;
@@ -71,33 +77,32 @@
       border-left: none;
     }
 
-    /* Delete when done */
-    button.new-toggle{
-      color: #222222;
-      padding: 16px 24px;
-      border-right: solid 1px #2223;
-      border-top: none;
-      border-bottom: none;
-      border-left: none;
-    }
-
     div[class^='submenu']{
-      padding: 1rem;
+      padding: 1rem 1.25rem;
       border-radius: 0px;
       font-family: 'Quicksand', Arial, Helvetica, sans-serif;
       box-shadow: 0 5px 10px rgba(0,0,0,0.2);
       box-sizing: border-box;
       display: none;
-      position: absolute !important;
-      left: 0 !important;
+      float: left;
+      top: 100%;
+      background-clip: padding-box;
     }
-
-    .navbar-content {
-      position: relative;
+    
+    .col > ul {
+      padding-left: 0px;
     }
 
     li{
       list-style: none;
+    }
+
+    div[class^='submenu']>.row>.col>ul> li{
+      padding: 8px 0px !important;
+    }
+
+    .navbar-nav .dropdown-menu{
+      position: absolute;
     }
 
     .dropdown-title {
@@ -106,14 +111,89 @@
       font-size: 20px;
       font-weight: bold;
     }
-    a.dropdown-link{
+
+    .dropdown-link{
       color: #222222;
       font-size: 16px;
-      padding: 8px 0px;
       text-decoration: underline;
     }
 
-    /*  */
+    .dropdown-link:hover{
+      color: blue;
+    }
+
+    /* Caret Rotation */
+    .dropdown-toggle::after {
+      transition: transform 0.5s ease;
+      transform: rotate(0deg);
+    }
+
+    .dropdown-toggle[aria-expanded="true"]::after {
+      transform: rotate(180deg);
+    }
+
+    /* Smaller Screens */
+    @media only screen and (max-width: 991px){
+      #navbar-main .nav-title{
+        font-size: 14px;
+        font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 4px;
+      }
+      .main-dropdown {
+        padding: 12px 0px;
+      }
+
+      .dropdown-title {
+        font-size: 14px;
+      }
+
+      .dropdown-link{
+        font-size: 12px;
+      }
+
+      a.new-toggle{
+        color: #222222;
+        padding: 8px;
+        border: none;
+      }
+
+      div[class^='submenu']{
+        width: 100%;
+      }
+    }
+
+    /* large screen only settings */
+    @media only screen and (min-width:1200px){
+      /* Determines the placement of the dropdown popup, relative to the navbar, on large screens */
+      #dropdown-2{
+        transform:  translate(-184px, 0%);
+      }
+      
+      #dropdown-1{
+        transform:  translate(-3px, 0%);
+      }      
+
+      #dropdown-3{
+        width: 712px;
+        transform:  translate(-478px, 0%);
+      }
+
+      #dropdown-4{
+        transform:  translate(-689px, 0%);
+      }
+
+      #dropdown-1, #dropdown-2{
+        width: 945px;
+      }
+    }
+    
+
+    @media only screen and (max-width:1200px){
+      a.new-toggle{
+        padding: 8px;
+      }
+    }
 
   </style>
   </head>
@@ -185,678 +265,687 @@
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="CollapsingNavbar">
-            <div class="nav-content">
-              <nav  class="nav-container" id="" data-breakpoint="1200" aria-label="Main Navigation">
-                <ul class="navbar-nav position-relative" style="width: 100%;">
+          <div class="collapse navbar-collapse justify-content-end" id="CollapsingNavbar" style="height: 100%">
+            <div class="nav-container">
+              <nav  class="nav-content position-relative" id="" data-breakpoint="1200" aria-label="Main Navigation">
+                <ul class="navbar-nav">
                   <li class="nav-item dropdown " aria-level="1" >
-                    <div class="">
+                    <div class="main-dropdown">
                       <span class="nav-title" tabindex="0">
                         Explore UG
                       </span>
                       <a href="#" class="new-toggle dropdown-toggle" role="button" data-bs-target="dropdown-1" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
                       </a> 
-                      <div class="submenu-1 dropdown-menu container" id="dropdown-1"  style="width: 960px;">
-                      <div class="row">
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-circle-info"></span>
-                                About University of Guyana
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/about-0"  class="dropdown-link">
-                                  About
-                              </a>                          
-                            </li>
-                            <li  class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="" tabindex="0">
-                                  Campuses
+                      <div class="submenu-4 dropdown-menu container" id="dropdown-1">
+                        <div class="row">
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-circle-info"></span>
+                                  About University of Guyana
                                 </span>
-                              </span>
-                            </li>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/about-0"  class="dropdown-link">
+                                    About
+                                </a>                          
+                              </li>
+                              <li  class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="" tabindex="0">
+                                    Campuses
+                                  </span>
+                                </span>
+                              </li>
 
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://tain.uog.edu.gy/"  class="dropdown-link">
-                                Tain
-                              </a>
-                            </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://tain.uog.edu.gy/"  class="dropdown-link">
+                                  Tain
+                                </a>
+                              </li>
 
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/"  class="dropdown-link">
-                                  Turkeyen
-                              </a>
-                            </li>
-                            <li  class="nav-item dropdown-title" aria-level="1" >
-                              <span class="" tabindex="0">
-                                <span class="fa-solid fa-building-flag"></span>
-                                Governance
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/prof-edward-greene"  class="dropdown-link">
-                                Chancellor
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/major-general-joseph-singh-retd"  class="dropdown-link">
-                                Pro-Chancellor
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/ug-council-0"  class="dropdown-link">
-                                University Council
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/office-vice-chancellor"  class="dropdown-link">
-                                Office of the Vice-Chancellor
-                              </a>
-                            </li>
-                          </ul>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/"  class="dropdown-link">
+                                    Turkeyen
+                                </a>
+                              </li>
+                              <li  class="nav-item dropdown-title" aria-level="1" >
+                                <span class="" tabindex="0">
+                                  <span class="fa-solid fa-building-flag"></span>
+                                  Governance
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/prof-edward-greene"  class="dropdown-link">
+                                  Chancellor
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/major-general-joseph-singh-retd"  class="dropdown-link">
+                                  Pro-Chancellor
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/ug-council-0"  class="dropdown-link">
+                                  University Council
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/office-vice-chancellor"  class="dropdown-link">
+                                  Office of the Vice-Chancellor
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li  class="nav-item dropdown-title" aria-level="1" >
+                                <span class="" tabindex="0">
+                                  <span class="fa-solid fa-users"></span>
+                                  The Administration
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/prof-paloma-mohamed-martin"  class="dropdown-link">
+                                  Vice-Chancellor
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/dvc-academic-engagement"  class="dropdown-link">
+                                  Deputy Vice-Chancellor (AE)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/dvc-institutional-advancement"  class="dropdown-link">
+                                  Deputy Vice-Chancellor (IA)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/deputy-vice-chancellor-finance-administration"  class="dropdown-link">
+                                  Deputy Vice-Chancellor (FA)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/ms-holda-poonai"  class="dropdown-link">
+                                  Bursar
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/registrar"  class="dropdown-link">
+                                  Registrar
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/dr-gomathinayagam-subramanian"  class="dropdown-link">
+                                  Director of Berbice Campus
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff/dr-troy-thomas"  class="dropdown-link">
+                                  Director of Undergraduate Research
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/statutory-officers-1"  class="dropdown-link">
+                                  Statutory Officers
+                                </a>
+                              </li>
+                              <li  class="nav-item dropdown-title" aria-level="1" >
+                                <span class="" tabindex="0">
+                                  <span class="fa-solid fa-building-columns"></span>
+                                  Faculties &amp; Colleges
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://faf.uog.edu.gy/"  class="dropdown-link">
+                                  Agriculture &amp; Forestry
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://fees.uog.edu.gy/"  class="dropdown-link">
+                                  Earth &amp; Environmental Science
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://feh.uog.edu.gy/"  class="dropdown-link">
+                                  Education &amp; Humanities
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://fot.uog.edu.gy/"  class="dropdown-link">
+                                  Engineering &amp; Technology
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://cms.uog.edu.gy/"  class="dropdown-link">
+                                  Medical Sciences (formerly Health Sciences)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://fns.uog.edu.gy/"  class="dropdown-link">
+                                  Natural Sciences
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://fss.uog.edu.gy/"  class="dropdown-link">
+                                  Social Sciences
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/srms/departments/288/programmes/"  class="dropdown-link">
+                                  College of Behavioural Sciences and Research
+                                </a>
+                              </li>
+                              <li  class="nav-item dropdown-title" aria-level="1" >
+                                <span class="" tabindex="0">
+                                  <span class="fa-regular fa-building"></span>
+                                  Schools &amp; Institutes
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://idce.uog.edu.gy/"  class="dropdown-link">
+                                  Institute of Distance &amp; Continuing Education (IDCE)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://genderstudies.uog.edu.gy/"  class="dropdown-link">
+                                  Institute of Gender Studies
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://sebi.uog.edu.gy/"  class="dropdown-link">
+                                  School Of Entrepreneurship &amp; Business Innovation (SEBI)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://coetal.uog.edu.gy/"  class="dropdown-link">
+                                  Centre of Excellence for Teaching and Learning (CoETaL)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://ciug.uog.edu.gy/"  class="dropdown-link">
+                                  Confucius Institute
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://ugirie.uog.edu.gy/"  class="dropdown-link">
+                                  Institute of Research, Innovation and Entrepreneurship
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://sgsr.uog.edu.gy/"  class="dropdown-link">
+                                  School of Graduate Studies and Research
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul  class="" role="list">
+                              <li  class="nav-item dropdown-title" aria-level="1" >
+                                <span class="" tabindex="0">
+                                  <span class="fa-solid fa-building"></span>
+                                  Administrative Divisions
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/bursary"  class="dropdown-link">
+                                  Bursary
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://our.uog.edu.gy/"  class="dropdown-link">
+                                  Office for Undergraduate Research
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://paceuog.wixsite.com/pace-uog"  class="dropdown-link">
+                                  PACE
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://ugalumnipride.com/index.html"  class="dropdown-link">
+                                  Alumni Association
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://turkeyentaintalks.wixsite.com/uog-talks"  class="dropdown-link">
+                                  Turkeyen &amp; Tain Talks
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uglibrary.uog.edu.gy/"  class="dropdown-link">
+                                  Library
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/personnel-division"  class="dropdown-link">
+                                  Personnel Division
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/"  class="dropdown-link">
+                                  Public Relations Division
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://www.ugpress.com/"  class="dropdown-link">
+                                  UG Press
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/"  class="dropdown-link" aria-expanded="false">
+                                  Registry
+                                </a>
+                                  <div id="sub-dropdown">
+                                    <ul>
+                                      <li  class="nav-item" aria-level="3" >
+                                        <a href="https://registry.uog.edu.gy/admissions-division"  class="dropdown-link">
+                                          Admissions Division
+                                        </a>
+                                      </li>
+                                      <li  class="nav-item" aria-level="3" >
+                                        <a href="https://registry.uog.edu.gy/committees-archives-unit"  class="dropdown-link">
+                                          Committees
+                                        </a>
+                                      </li>
+                                      <li  class="nav-item" aria-level="3" >
+                                        <a href="https://registry.uog.edu.gy/examinations-division"  class="dropdown-link">
+                                          Examinations Division
+                                        </a>
+                                      </li>
+                                      <li  class="nav-item" aria-level="3" >
+                                        <a href="https://registry.uog.edu.gy/records-and-data-management-division"  class="dropdown-link">
+                                          Records and Data Management Division
+                                        </a>
+                                      </li>
+                                      <li  class="nav-item" aria-level="3" >
+                                        <a href="https://registry.uog.edu.gy/students-welfare-division"  class="dropdown-link">
+                                          Students&#039; Welfare Division
+                                        </a>
+                                      </li>
+                                      
+                                    </ul>
+                                </div>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/"  class="dropdown-link">
+                                  Faculties &amp; Maintenance
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://security.uog.edu.gy/"  class="dropdown-link">
+                                  Safety &amp; Security
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
-                        <div class="col">
-                          <ul>
-                            <li  class="nav-item dropdown-title" aria-level="1" >
-                              <span class="" tabindex="0">
-                                <span class="fa-solid fa-users"></span>
-                                The Administration
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/prof-paloma-mohamed-martin"  class="dropdown-link">
-                                Vice-Chancellor
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/dvc-academic-engagement"  class="dropdown-link">
-                                Deputy Vice-Chancellor (AE)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/dvc-institutional-advancement"  class="dropdown-link">
-                                Deputy Vice-Chancellor (IA)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/deputy-vice-chancellor-finance-administration"  class="dropdown-link">
-                                Deputy Vice-Chancellor (FA)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/ms-holda-poonai"  class="dropdown-link">
-                                Bursar
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/registrar"  class="dropdown-link">
-                                Registrar
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/dr-gomathinayagam-subramanian"  class="dropdown-link">
-                                Director of Berbice Campus
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff/dr-troy-thomas"  class="dropdown-link">
-                                Director of Undergraduate Research
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col">
-                          <ul>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/statutory-officers-1"  class="dropdown-link">
-                                Statutory Officers
-                              </a>
-                            </li>
-                            <li  class="nav-item dropdown-title" aria-level="1" >
-                              <span class="" tabindex="0">
-                                <span class="fa-solid fa-building-columns"></span>
-                                Faculties &amp; Colleges
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://faf.uog.edu.gy/"  class="dropdown-link">
-                                Agriculture &amp; Forestry
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://fees.uog.edu.gy/"  class="dropdown-link">
-                                Earth &amp; Environmental Science
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://feh.uog.edu.gy/"  class="dropdown-link">
-                                Education &amp; Humanities
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://fot.uog.edu.gy/"  class="dropdown-link">
-                                Engineering &amp; Technology
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://cms.uog.edu.gy/"  class="dropdown-link">
-                                Medical Sciences (formerly Health Sciences)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://fns.uog.edu.gy/"  class="dropdown-link">
-                                Natural Sciences
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://fss.uog.edu.gy/"  class="dropdown-link">
-                                Social Sciences
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/srms/departments/288/programmes/"  class="dropdown-link">
-                                College of Behavioural Sciences and Research
-                              </a>
-                            </li>
-                            <li  class="nav-item dropdown-title" aria-level="1" >
-                              <span class="" tabindex="0">
-                                <span class="fa-regular fa-building"></span>
-                                Schools &amp; Institutes
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://idce.uog.edu.gy/"  class="dropdown-link">
-                                Institute of Distance &amp; Continuing Education (IDCE)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://genderstudies.uog.edu.gy/"  class="dropdown-link">
-                                Institute of Gender Studies
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://sebi.uog.edu.gy/"  class="dropdown-link">
-                                School Of Entrepreneurship &amp; Business Innovation (SEBI)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://coetal.uog.edu.gy/"  class="dropdown-link">
-                                Centre of Excellence for Teaching and Learning (CoETaL)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://ciug.uog.edu.gy/"  class="dropdown-link">
-                                Confucius Institute
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://ugirie.uog.edu.gy/"  class="dropdown-link">
-                                Institute of Research, Innovation and Entrepreneurship
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://sgsr.uog.edu.gy/"  class="dropdown-link">
-                                School of Graduate Studies and Research
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col">
-                          <ul  class="" role="list">
-                            <li  class="nav-item dropdown-title" aria-level="1" >
-                              <span class="" tabindex="0">
-                                <span class="fa-solid fa-building"></span>
-                                Administrative Divisions
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/bursary"  class="dropdown-link">
-                                Bursary
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://our.uog.edu.gy/"  class="dropdown-link">
-                                Office for Undergraduate Research
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://paceuog.wixsite.com/pace-uog"  class="dropdown-link">
-                                PACE
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://ugalumnipride.com/index.html"  class="dropdown-link">
-                                Alumni Association
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://turkeyentaintalks.wixsite.com/uog-talks"  class="dropdown-link">
-                                Turkeyen &amp; Tain Talks
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uglibrary.uog.edu.gy/"  class="dropdown-link">
-                                Library
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/personnel-division"  class="dropdown-link">
-                                Personnel Division
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/"  class="">
-                                Public Relations Division
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://www.ugpress.com/"  class="dropdown-link">
-                                UG Press
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/"  class="dropdown-link" aria-expanded="false">
-                                Registry
-                              </a>
-                                <div id="sub-dropdown">
-                                  <ul>
-                                    <li  class="nav-item" aria-level="3" >
-                                      <a href="https://registry.uog.edu.gy/admissions-division"  class="dropdown-link">
-                                        Admissions Division
-                                      </a>
-                                    </li>
-                                    <li  class="nav-item" aria-level="3" >
-                                      <a href="https://registry.uog.edu.gy/committees-archives-unit"  class="dropdown-link">
-                                        Committees
-                                      </a>
-                                    </li>
-                                    <li  class="nav-item" aria-level="3" >
-                                      <a href="https://registry.uog.edu.gy/examinations-division"  class="dropdown-link">
-                                        Examinations Division
-                                      </a>
-                                    </li>
-                                    <li  class="nav-item" aria-level="3" >
-                                      <a href="https://registry.uog.edu.gy/records-and-data-management-division"  class="dropdown-link">
-                                        Records and Data Management Division
-                                      </a>
-                                    </li>
-                                    <li  class="nav-item" aria-level="3" >
-                                      <a href="https://registry.uog.edu.gy/students-welfare-division"  class="dropdown-link">
-                                        Students&#039; Welfare Division
-                                      </a>
-                                    </li>
-                                    
-                                  </ul>
-                              </div>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/"  class="dropdown-link">
-                                Faculties &amp; Maintenance
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://security.uog.edu.gy/"  class="dropdown-link">
-                                Safety &amp; Security
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
                       </div>
                     </div>
                   </li>
 
                   <li class="nav-item dropdown" aria-level="1">
-                    <span class="nav-title" tabindex="0">
-                      Admissions &amp; Registration
-                    </span>
-                    <a href="#" class="new-toggle dropdown-toggle" role="button" data-bs-target="dropdown-2" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
-                    </a>
-                    <div class="submenu-2 dropdown-menu container" id="dropdown-2" style="width: 960px;" data-bs-offset=".nav-container">
-                      <div class="row">
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-user-tie"></span>
-                                Admissions &amp; Registration
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/admissions-division/admission-uog"  class="dropdown-link">
-                                  Apply for Admission
-                              </a>                          
-                            </li>
+                    <div class="main-dropdown">
+                      <span class="nav-title" tabindex="0">
+                        Admissions &amp; Registration
+                      </span>
+                      <a href="#" class="new-toggle dropdown-toggle" role="button" data-bs-target="dropdown-2" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
+                      </a>
+                      <div class="submenu-4 dropdown-menu container" id="dropdown-2">
+                        <div class="row">
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-user-tie"></span>
+                                  Admissions &amp; Registration
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/admissions-division/admission-uog"  class="dropdown-link">
+                                    Apply for Admission
+                                </a>                          
+                              </li>
 
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/srms/departments"  class="dropdown-link">
-                                Find Your Major
-                              </a>
-                            </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/srms/departments"  class="dropdown-link">
+                                  Find Your Major
+                                </a>
+                              </li>
 
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/admissions-division/general-admission-requirements"  class="dropdown-link">
-                                  General Admission Requirements
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/admissions-division/university-guyana-entrance-exam"  class="dropdown-link">
-                                University Of Guyana Entrance Exam
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/admissions-division/procedure-registration"  class="dropdown-link">
-                                Registration Procedure
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/admissions-division/register-courses"  class="dropdown-link">
-                                Register For Courses
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-hand-holding-dollar"></span>
-                                Finances
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/admissions-division/tuition-fees"  class="dropdown-link">
-                                Tuition &amp; Fees
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/scholarship-advanced-guyanese-education-sage"  class="dropdown-link">
-                                Scholarships
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/student-loans"  class="dropdown-link">
-                                Student Loans
-                              </a>
-                            </li>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-folder-open"></span>
-                                Resources
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/campus-map"  class="dropdown-link">
-                                Campus Map
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-person-walking"></span>
-                                Student Life At UG
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/students-welfare-division/co-curricular-activities"  class="dropdown-link">
-                                Co-Curricular Activities
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/students-welfare-division/guidance-and-counselling"  class="dropdown-link">
-                                Guidance &amp; Counselling
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/medical-centre"  class="dropdown-link">
-                                Medical
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/students-welfare-division/accommodations"  class="dropdown-link">
-                                Accomodation
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/students-welfare-division/dormitories/dennis-irvine-hall-residence"  class="dropdown-link">
-                                Dennis Irvine Hall Of Residence
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://registry.uog.edu.gy/students-welfare-division/dormitories/new-building-society-hall-residence"  class="dropdown-link">
-                                New Building Society Hall Of Residence
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-globe"></span>
-                                Online Services
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://www.turkeyenonline.uog.edu.gy/srms/student/prospective/application/login.php"  class="dropdown-link">
-                                SRMS Portal (Turkeyen Campus)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://www.tainonline.uog.edu.gy/srms/student/prospective/application/login.php"  class="dropdown-link">
-                                SRMS Portal (Berbice Campus)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://www.turkeyenonline.uog.edu.gy/srms/student/prospective/application/login.php?sesstype=dist"  class="dropdown-link">
-                                SRMS Portal (IDCE)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://moodle.uog.edu.gy/"  class="dropdown-link">
-                                Moodle
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://library.uog.edu.gy/"  class="dropdown-link">
-                                Library
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="nav-item dropdown position-relative" aria-level="1">
-                    <span class="nav-title" tabindex="0">
-                      Faculty &amp; Staff
-                    </span>
-                    <a href="#" class="new-toggle dropdown-toggle" role="button" data-bs-target="dropdown-3" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
-                    </a>
-                    <div class="submenu-3 dropdown-menu container position-absolute" id="dropdown-3" style="width: max-content;">
-                      <div class="row">
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-globe"></span>
-                                Online Services
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://www.turkeyenonline.uog.edu.gy/srms/student/prospective/application/login.php"  class="dropdown-link">
-                                SRMS Portal (Turkeyen Campus)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://www.tainonline.uog.edu.gy/srms/student/prospective/application/login.php"  class="dropdown-link">
-                                SRMS Portal (Berbice Campus)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://www.turkeyenonline.uog.edu.gy/srms/student/prospective/application/login.php?sesstype=dist"  class="dropdown-link">
-                                SRMS Portal (IDCE)
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://moodle.uog.edu.gy/"  class="dropdown-link">
-                                Moodle For Regular Students
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://hrmis.uog.edu.gy/"  class="dropdown-link">
-                                Human Resource MIS
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://library.uog.edu.gy/portal/"  class="dropdown-link">
-                                Library Portal
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-users"></span>
-                                  Staff Resources
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/personnel-division"  class="dropdown-link">
-                                Human Resources
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://expertguide.uog.edu.gy/"  class="dropdown-link">
-                                Faculty Expert Guide
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/vacancies"  class="dropdown-link">
-                                Vacancies
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/documents/staff-code-conduct"  class="dropdown-link">
-                                Staff Code of Conduct
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/staff-directory"  class="dropdown-link">
-                                Staff Directory
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-folder-open"></span>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/admissions-division/general-admission-requirements"  class="dropdown-link">
+                                    General Admission Requirements
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/admissions-division/university-guyana-entrance-exam"  class="dropdown-link">
+                                  University Of Guyana Entrance Exam
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/admissions-division/procedure-registration"  class="dropdown-link">
+                                  Registration Procedure
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/admissions-division/register-courses"  class="dropdown-link">
+                                  Register For Courses
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-hand-holding-dollar"></span>
+                                  Finances
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/admissions-division/tuition-fees"  class="dropdown-link">
+                                  Tuition &amp; Fees
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/scholarship-advanced-guyanese-education-sage"  class="dropdown-link">
+                                  Scholarships
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/student-loans"  class="dropdown-link">
+                                  Student Loans
+                                </a>
+                              </li>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-folder-open"></span>
                                   Resources
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/documents/academic-deadlines"  class="dropdown-link">
-                                Academic Calendar
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/campus-maps"  class="dropdown-link">
-                                Campus Map
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/documents"  class="dropdown-link">
-                                Document Archive
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/university-guyana-library"  class="dropdown-link">
-                                The University Library
-                              </a>
-                            </li>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-scroll"></span>
-                                  UOG News &amp; Updates
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/education-resource-ambassadors"  class="dropdown-link">
-                                Education Resource Ambassadors
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/newsletter"  class="dropdown-link">
-                                News Releases
-                              </a>
-                            </li>
-                          </ul>
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/campus-map"  class="dropdown-link">
+                                  Campus Map
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-person-walking"></span>
+                                  Student Life At UG
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/students-welfare-division/co-curricular-activities"  class="dropdown-link">
+                                  Co-Curricular Activities
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/students-welfare-division/guidance-and-counselling"  class="dropdown-link">
+                                  Guidance &amp; Counselling
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/medical-centre"  class="dropdown-link">
+                                  Medical
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/students-welfare-division/accommodations"  class="dropdown-link">
+                                  Accomodation
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/students-welfare-division/dormitories/dennis-irvine-hall-residence"  class="dropdown-link">
+                                  Dennis Irvine Hall Of Residence
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://registry.uog.edu.gy/students-welfare-division/dormitories/new-building-society-hall-residence"  class="dropdown-link">
+                                  New Building Society Hall Of Residence
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-globe"></span>
+                                  Online Services
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://www.turkeyenonline.uog.edu.gy/srms/student/prospective/application/login.php"  class="dropdown-link">
+                                  SRMS Portal (Turkeyen Campus)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://www.tainonline.uog.edu.gy/srms/student/prospective/application/login.php"  class="dropdown-link">
+                                  SRMS Portal (Berbice Campus)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://www.turkeyenonline.uog.edu.gy/srms/student/prospective/application/login.php?sesstype=dist"  class="dropdown-link">
+                                  SRMS Portal (IDCE)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://moodle.uog.edu.gy/"  class="dropdown-link">
+                                  Moodle
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://library.uog.edu.gy/"  class="dropdown-link">
+                                  Library
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
+                      
                   </li>
 
                   <li class="nav-item dropdown" aria-level="1">
-                    <span class="nav-title" tabindex="0">
-                      Alumni &amp; Community
-                    </span>
-                    <a href="#" class="new-toggle dropdown-toggle" role="button" data-bs-target="dropdown-4" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
-                    </a>
-                    <div class="submenu-4 dropdown-menu container " id="dropdown-4">
-                      <div class="row">
-                        <div class="col">
-                          <ul>
-                            <li class="dropdown-title nav-item" aria-level="1">
-                              <span>
-                                <span class="fa-solid fa-globe"></span>
-                                  Alumni Resources
-                              </span>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://paceuog.wixsite.com/pace-uog"  class="dropdown-link">
-                                PACE - Alumni &amp; Community
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://ugalumnipride.com/"  class="dropdown-link">
-                                Alumni Association
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://diasporaconference.uog.edu.gy/"  class="dropdown-link">
-                                Diaspora Engagement Conference
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://paceuog.wixsite.com/pace-uog/make-a-gift"  class="dropdown-link">
-                                Give Back To Your University
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="https://uog.edu.gy/registry/examinations-division/transcript-application"  class="dropdown-link">
-                                Transcript Application
-                              </a>
-                            </li>
-                            <li  class="nav-item" aria-level="2" >
-                              <a href="http://turkeyentaintalks.wixsite.com/uog-talks"  class="dropdown-link">
-                                Turkeyen &amp; Tain Talks
-                              </a>
-                            </li>
-                          </ul>
+                    <div class="main-dropdown">
+                      <span class="nav-title" tabindex="0">
+                        Faculty &amp; Staff
+                      </span>
+                      <a href="#" class="new-toggle dropdown-toggle" role="button" data-bs-target="dropdown-3" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
+                      </a>
+                      <div class="submenu-3 dropdown-menu container" id="dropdown-3">
+                        <div class="row">
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-globe"></span>
+                                  Online Services
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://www.turkeyenonline.uog.edu.gy/srms/student/prospective/application/login.php"  class="dropdown-link">
+                                  SRMS Portal (Turkeyen Campus)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://www.tainonline.uog.edu.gy/srms/student/prospective/application/login.php"  class="dropdown-link">
+                                  SRMS Portal (Berbice Campus)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://www.turkeyenonline.uog.edu.gy/srms/student/prospective/application/login.php?sesstype=dist"  class="dropdown-link">
+                                  SRMS Portal (IDCE)
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://moodle.uog.edu.gy/"  class="dropdown-link">
+                                  Moodle For Regular Students
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://hrmis.uog.edu.gy/"  class="dropdown-link">
+                                  Human Resource MIS
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://library.uog.edu.gy/portal/"  class="dropdown-link">
+                                  Library Portal
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-users"></span>
+                                    Staff Resources
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/personnel-division"  class="dropdown-link">
+                                  Human Resources
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://expertguide.uog.edu.gy/"  class="dropdown-link">
+                                  Faculty Expert Guide
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/vacancies"  class="dropdown-link">
+                                  Vacancies
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/documents/staff-code-conduct"  class="dropdown-link">
+                                  Staff Code of Conduct
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/staff-directory"  class="dropdown-link">
+                                  Staff Directory
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-folder-open"></span>
+                                    Resources
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/documents/academic-deadlines"  class="dropdown-link">
+                                  Academic Calendar
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/campus-maps"  class="dropdown-link">
+                                  Campus Map
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/documents"  class="dropdown-link">
+                                  Document Archive
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/university-guyana-library"  class="dropdown-link">
+                                  The University Library
+                                </a>
+                              </li>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-scroll"></span>
+                                    UOG News &amp; Updates
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/education-resource-ambassadors"  class="dropdown-link">
+                                  Education Resource Ambassadors
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/newsletter"  class="dropdown-link">
+                                  News Releases
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
+                    
+                  </li>
+
+                  <li class="nav-item dropdown" aria-level="1">
+                    <div class="main-dropdown">
+                      <span class="nav-title" tabindex="0">
+                        Alumni &amp; Community
+                      </span>
+                      <a href="#" class="new-toggle dropdown-toggle" role="button" data-bs-target="dropdown-4" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
+                      </a>
+                      <div class="submenu-1 dropdown-menu container " id="dropdown-4">
+                        <div class="row">
+                          <div class="col">
+                            <ul>
+                              <li class="dropdown-title nav-item" aria-level="1">
+                                <span>
+                                  <span class="fa-solid fa-globe"></span>
+                                    Alumni Resources
+                                </span>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://paceuog.wixsite.com/pace-uog"  class="dropdown-link">
+                                  PACE - Alumni &amp; Community
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://ugalumnipride.com/"  class="dropdown-link">
+                                  Alumni Association
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://diasporaconference.uog.edu.gy/"  class="dropdown-link">
+                                  Diaspora Engagement Conference
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://paceuog.wixsite.com/pace-uog/make-a-gift"  class="dropdown-link">
+                                  Give Back To Your University
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="https://uog.edu.gy/registry/examinations-division/transcript-application"  class="dropdown-link">
+                                  Transcript Application
+                                </a>
+                              </li>
+                              <li  class="nav-item" aria-level="2" >
+                                <a href="http://turkeyentaintalks.wixsite.com/uog-talks"  class="dropdown-link">
+                                  Turkeyen &amp; Tain Talks
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      
                   </li>
 
                   

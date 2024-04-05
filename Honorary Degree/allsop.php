@@ -1,3 +1,6 @@
+<?php
+    include_once("header.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,9 +22,6 @@
     <title>Jeannette Allsop</title>
 </head>
 <body>
-    <?php
-        include_once("header.php")
-    ?>
 <!-- Main Content Section -->
     <div class="rec">
 

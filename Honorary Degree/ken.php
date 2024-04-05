@@ -1,3 +1,6 @@
+<?php
+    include_once("header.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,9 +22,6 @@
     <title>Kenneth Singh</title>
 </head>
 <body>
-    <?php
-        include_once("header.php")
-    ?>
     <div class="rec">
     <div class="intro w-100" style="background-image: url('img/ken-singh.jpeg');">
         <div class="container">

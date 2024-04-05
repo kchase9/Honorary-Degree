@@ -1,3 +1,7 @@
+<?php
+    include_once("header.php")
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,9 +35,7 @@
     <title>Honorary Degrees</title>
 </head>
 <body>
-    <?php
-        include_once("header.php")
-    ?>
+    
     <div class="body">
         <div class="w-100 hero-section text-center">
             <h1 id="header_h1">
