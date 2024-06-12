@@ -173,7 +173,7 @@
                         <td>9th November, 2023</td>
                     </tr>
                     <tr>
-                        <td><a href="jospeph.php">Joseph Perreira</a></td>
+                        <td><a href="joseph.php">Joseph Perreira</a></td>
                         <td>Honorary Doctorate in Sport</td>
                         <td>56th Convocation</td>
                         <td>9th November, 2023</td>
