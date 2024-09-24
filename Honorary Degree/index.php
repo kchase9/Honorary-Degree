@@ -58,18 +58,45 @@
                         <h1>What is the Honorary Degree?</h1>
 
                         <p>
-                            An honorary doctorate is a prestigious academic degree that is awarded to an individual as an honor, typically in recognition of their significant contributions to a particular field or to society as a whole. Unlike traditional academic degrees, honorary doctorates are not earned through completing a course of study or research. Instead, they are bestowed upon individuals who have made extraordinary achievements and have had a lasting impact in their respective fields. <br><br>
+                            Honorary Degrees are awarded in order to
+                        </p>
+                        <ol>
+                            <li>
+                                <p>
+                                    Recognize major contributions, locally, regionally, and internationally, in areas relevant to the University, through significant research or a career in dedicated academic or administrative service.
+                                </p>
+                            </li>
 
-                            Recipients of honorary doctorates are often distinguished individuals who have excelled in areas such as academia, the arts, business, politics, or philanthropy. These individuals have demonstrated exceptional leadership, innovation, and dedication, and their contributions have significantly influenced their field of expertise or society in general. <br><br>
-
-                            The degree is typically conferred by the university during a special ceremony, and the recipient is often invited to deliver a speech or address the graduating class. Although honorary doctorates do not require the recipient to complete academic coursework, the title "Doctor" is bestowed upon them, and they may use it in front of their name as a mark of distinction.
+                            <li>
+                                <p>
+                                    Acknowledge significant contributions to society through, inter alia, scholarship, humanitarianism, sports, the arts, business and industry
+                                </p>
+                           
+                            </li>
+                        </ol>
+                        <p>
+                        The awardees are expected to forge deeper relations with the University, and may be required to serve from time to time as guest speakers and guest lecturers, mentors, and in other capacities to advance the University’s goals and objectives. 
+                        </p>
+                        <p>
+                        Every care should be taken to ensure the integrity of these awards while ensuring that
+                        they are free from political, racial, economic and any other bias or any interference. 
+                        </p>
+                        <p>
+                        The main criteria for the award is notable achievement in academia, the arts and letters, the professions, business or public service and significant and outstanding contributions to society.
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <p>
-                        Honorary doctorates serve as a way for institutions to recognize and honor individuals who have made profound and enduring contributions to their respective fields. They are a testament to the recipient's accomplishments and their impact on society, and they hold great significance in the academic and professional world. 
+                    The degree is usually not awarded post humously and also cannot ordinarily be awarded
+                    in absentia.
                     </p>
+                </div>
+
+                <div class="guidelines">
+                    <a href="guidelines.php" class="btn">
+                        Go To Guideines
+                    </a>
                 </div>
 
                 <div>

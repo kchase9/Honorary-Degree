@@ -5,7 +5,6 @@ body {
 h1{
     color:#183E33;
     font-size: 28px;
-    /* position: relative; */
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     text-transform:uppercase;
     font-weight: bold;
@@ -17,13 +16,30 @@ h2{
     color: #183E33;
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 24px;
+}
+
+h3{
+    color: #183E33;
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
+
+h4{
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
+    color: #183E33;
+    font-size: 16px;
+
 }
 
 p{
     font-family: "Manrope", Arial, Helvetica, sans-serif;
     font-size: 16px;
-    
+    margin-bottom: 12px;    
+}
+
+ol {
+    list-style-type: decimal;
 }
 
 a{
@@ -179,7 +195,18 @@ hr{
     }
 
     h2{
-        font-size: 16px;
+        font-size: 18px;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+    
+    h4{
+        font-family: "Arimo", Arial, Helvetica, sans-serif;
+        color: #183E33;
+        font-size: 14px;
+    
     }
 
     p{
@@ -202,6 +229,7 @@ hr{
     #header_h1{
         font-size: 30px;
     }
+
 
     /* Recipients */
     .rec h1{
