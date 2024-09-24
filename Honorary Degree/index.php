@@ -93,11 +93,7 @@
                     </p>
                 </div>
 
-                <div class="guidelines">
-                    <a href="guidelines.php" class="btn">
-                        Go To Guideines
-                    </a>
-                </div>
+                
 
                 <div>
                     <h1>University of Guyana</h1>
@@ -220,6 +216,18 @@
 
                     
                 </table>
+
+                <div class="other-actions">
+                    <h1>Other Actions</h1>
+                    <div class="btn-content">
+                        <a href="guidelines.php" class="btn">
+                            View Guidelines
+                        </a>
+                        <a href="https://uog.edu.gy/form/nomination-for-honorary-degree" class="btn">
+                            Nominate a Recipient
+                            </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

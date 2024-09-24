@@ -37,6 +37,8 @@
             <h1 id="header_h1">
                 <span>
                     Rules and Guidelines
+                    <br>
+                    <a href="index.php">University of Guyana Honorary Degree</a>
                 </span>
             </h1>
         </div>   
@@ -196,7 +198,7 @@
                         At the commencement of each academic year, the Chair will write Deans, Directors and the University Librarian, inviting the submission of nominees. Any UA staff can initiate the nomination process, by completing the nomination form and submitting it to the Secretary, who shall be appointed by the members of the Standing Committee, and Chair of the Standing Committee by July of a given year, for consideration of the award of the award for that year.
                         </p>
                         <p>The Standing Committee shall consist of:</p>
-                        <ol>
+                        <ol class="lettered">
                             <li><p>The Deputy Vice-Chancellors</p></li>
                             <li><p>The Deans in their official capacity, Directors of IDCE & UGBC, and the University Librarian</p></li>
                             <li><p>One representative of the Guyana Guild of Graduates/ Alumni Association</p></li>
@@ -327,7 +329,7 @@
                                     </div>
                                     <div class="row">
                                         <p>
-                                        Once approved, all Nominees will fall under the auspices of the Office of the Vice-Chancellor who will collaborate with the Chancellor and or the University of Guyana Graduation Committee1 for notification and logistical arrangements.
+                                        Once approved, all Nominees will fall under the auspices of the Office of the Vice-Chancellor who will collaborate with the Chancellor and or the University of Guyana Graduation Committee<sup>1</sup> for notification and logistical arrangements.
                                         </p>
                                     </div>
                                 </div>
@@ -335,15 +337,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="footnotes">
+                    <small>
+                        <sup>1</sup>If the Honorary degree is being conferred outside a normal Graduation, the Graduation Committee will not be consulted.
+                    </small>
+                </div>
             </div>
-            <div class="small">
-                <ol>
-                    <li>
-                        <small>If the Honorary degree is being conferred outside a normal Graduation, the Graduation Committee will not be
-                        consulted.</small>
-                    </li>
-                </ol>
-            </div>
+            
         </div>
     </div>
     

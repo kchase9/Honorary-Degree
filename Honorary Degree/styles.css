@@ -38,13 +38,17 @@ p{
     margin-bottom: 12px;    
 }
 
-ol {
-    list-style-type: decimal;
-}
-
 a{
     color:black;
     text-decoration: none;
+}
+
+li{
+    margin-left: 48px;
+}
+
+.lettered li{
+    list-style-type: upper-alpha;
 }
 
 th{
@@ -66,21 +70,63 @@ tr{
     border-bottom: 1px solid #6A8A81;
 }
 
+table{
+    margin-bottom: 24px;
+}
+
 #header_h1{
     font-size: 48px;
     color:#f0fff3;
+}
+
+#header_h1 a{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#header_h1 a:hover{
+    transform: scale(1.2); 
+
+}
+
+.other-actions{
+    text-align: center;
+}
+
+.btn-content{
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-content .btn{
+    border: solid 1px #183E33;
+    color: #183E33;
+    margin: 0 12px;
+}
+
+.btn-content .btn:hover{
+    background-color: #183E33;
+    border: solid 1px white;
+    color: white;
+}
+
+.footnotes{
+    margin-top: 48px;
 }
 
 .content {
     background-color: white;
     border-radius: 9px;
     border: 1px solid rgba(0, 0, 0, 0.45);
-    margin-top: 60px;
+    margin: 60px 0;
     padding: 45px 90px;
 }
 
 .hero-section{
-    padding: 81px 300px;
+    text-align: center;
+    padding: 81px 100px;
     background-image: url('img/header.jpg');
     background-position: 50% 65%;
     background-repeat: no-repeat;
@@ -199,7 +245,7 @@ hr{
     }
     
     h3{
-        font-size: 24px;
+        font-size: 16px;
     }
     
     h4{
@@ -230,6 +276,11 @@ hr{
         font-size: 30px;
     }
 
+    #header_h1 a{
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    }
 
     /* Recipients */
     .rec h1{
@@ -285,7 +336,7 @@ td a {
 }
 
 td a:hover {
-    transform: scale(1.2); /* Expands the link */
+    transform: scale(1.2); 
 }
 
 

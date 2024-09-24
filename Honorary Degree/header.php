@@ -93,7 +93,7 @@
       padding-left: 0px;
     }
 
-    li{
+    #header li{
       list-style: none;
     }
 
