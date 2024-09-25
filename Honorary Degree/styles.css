@@ -32,7 +32,7 @@ h4{
 
 }
 
-p{
+p, a{
     font-family: "Manrope", Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-bottom: 12px;    
@@ -95,7 +95,7 @@ table{
 }
 
 .btn-content{
-    margin-bottom: 12px;
+    margin-bottom: 36px;
     display: flex;
     justify-content: center;
 }
@@ -106,9 +106,16 @@ table{
     margin: 0 12px;
 }
 
+.btn-content #nom-btn{
+    background-color: #183E33;
+    font-size: 16px;
+    color: white;
+    border-radius: 12px;
+    padding: 12px 24px;
+}
+
 .btn-content .btn:hover{
     background-color: #183E33;
-    border: solid 1px white;
     color: white;
 }
 
@@ -285,6 +292,8 @@ hr{
     .btn-content .btn{
         font-size: 12px;
     }
+
+
 
     /* Recipients */
     .rec h1{

@@ -49,6 +49,14 @@
 
         <div class="container-md">
             <div class="content">
+
+                <div class="other-actions">
+                    <div class="btn-content">
+                        <a href="https://uog.edu.gy/form/nomination-for-honorary-degree"  id="nom-btn">
+                            Nominate a Recipient
+                        </a>                        
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-4">
                         <img class="img-fluid img-preview d-none d-lg-block" src="img/degree_preview.jpg" alt="Degree Preview">
@@ -217,17 +225,14 @@
                     
                 </table>
 
-                <div class="other-actions">
-                    <h1>Other Actions</h1>
-                    <div class="btn-content">
-                        <a href="guidelines.php" class="btn">
-                            View Guidelines
-                        </a>
-                        <a href="https://uog.edu.gy/form/nomination-for-honorary-degree" class="btn">
-                            Nominate a Recipient
-                            </a>
-                    </div>
+                <div class="btn-content">
+                    <a href="guidelines.php" class="btn">
+                        View Guidelines
+                    </a>
+                    
                 </div>
+
+
             </div>
         </div>
     </div>
