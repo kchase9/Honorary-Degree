@@ -32,7 +32,7 @@
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">CCH Pounder</h1>
                     <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Sample Date: 3rd July, 1990</h3>
+                    <h3 class="p-3">Date: Nov 11, 2023</h3>
                     <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
