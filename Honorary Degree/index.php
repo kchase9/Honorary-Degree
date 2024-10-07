@@ -52,10 +52,10 @@
 
                 <div class="other-actions">
                     <div class="btn-content">
-                        <a href="https://uog.edu.gy/form/nomination-for-honorary-degree"  id="nom-btn">
+                        <a href="https://uog.edu.gy/form/nomination-for-honorary-degree" class="btn" id="nom-btn">
                             Nominate a Recipient
                         </a>
-                        <a href="guidelines.php" id="nom-btn">
+                        <a href="guidelines.php" class="btn" id="nom-btn">
                             View Guidelines
                         </a>                      
                     </div>
