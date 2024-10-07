@@ -31,9 +31,10 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Rohan Kanhai</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: Novemeber 18, 2023</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Honorary Doctorate in Sports and Civic Engagement</h2>
+                    <h3 class="p-3">Date: 18th Novemeber, 2023</h3>
+                    <p class="p-3">Rohan Kanhai, a former West Indian cricketer from Port Mourant, British Guiana, is celebrated as one of the finest batsmen in cricket history, known for his skillful and versatile play in both Test and county cricket. Making his Test debut in 1957 against England, Kanhai joined a team of legends, including Sonny Ramadhin, Clyde Walcott, and Garfield Sobers, and played a pivotal role in West Indies cricket from 1954-55 to 1973-74. Initially a wicketkeeper, he evolved into a middle-order batsman and achieved notable milestones, scoring over 1,000 runs in a season ten times with Warwickshire, peaking with 1,894 runs at an average of 57.39 in 1970. He set a world record with a 465-run partnership with John Jameson in 1974 and scored 15 Test centuries, including a memorable 256 against India and 213 against Pakistan, maintaining a Test average of 47.53. Kanhai captained the West Indies in the 1972-73 series against Australia and the 1973 tour to England before ending his Test career. He also played a key role in the first-ever World Cup Final in 1975, scoring 55 runs to help the West Indies secure victory. Kanhai’s legacy endures as a testament to his enduring impact on cricket in the Caribbean and his remarkable performances on the international stage.
+                    </p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

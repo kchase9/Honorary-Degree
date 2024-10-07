@@ -31,9 +31,9 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Frank Woon-A-Tai</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: Nov 9, 2023</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h3 class="p-3">Date: 9th November, 2023</h3>
+                    <p class="p-3">With over 50 years of experience, Woon-A-Tai is recognized as a Supreme International Instructor, Examiner, and Judge. He founded the IKD, expanding it to 80 regions in 57 countries, and is celebrated for bringing karate master Nakayama to Guyana in 1974 and 1979. His numerous accolades include being the first JKA ISKF Instructor promoted to Seventh Dan and serving as Vice-Chairman of the ISKF Technical Committee. He holds a B.A. in Japanese Studies from the University of Toronto and was honored with Guyana’s Medal of Service in 2011 and the French Guiana Medal of Honour. His autobiography, Shu-Ha-Ri: My Life in Japanese Karate, reflects on his journey from Guyana to a global karate legacy. His wife, Maureen, also a Ninth Dan, and their children—including Ken, a Sixth Dan and four-time World Champion—have contributed significantly to the karate world, marking a family legacy of excellence.</p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

@@ -34,9 +34,10 @@
                 <div class="col-lg-6 col-md-12 ">
                     <div class="align-items-start d-flex mb-3 flex-column">
                         <h1 class="p-3">Abdool Gafoor</h1>
-                        <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                        <h3 class="p-3">Date: Friday, December 9, 2022</h3>
-                        <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                        <h2 class="p-3">Doctorate of Letters</h2>
+                        <h3 class="p-3">Date: 9th December, 2022</h3>
+                        <p class="p-3">Abdool Sattaur Gafoor, a prominent Guyanese businessman born in 1941 in Corentyne, Berbice, is the owner of Gafsons Industries Limited, a major company providing employment to thousands. Known for his integrity, intelligence, and approachable nature, he emphasizes keeping promises and fostering a positive, encouraging workplace, often inspiring his staff to explore their own entrepreneurial paths. Gafoor has represented Guyana abroad alongside three presidents on official visits and has received multiple awards for his contributions. A lover of fishing, reading, and music, he is celebrated as a kind and uplifting figure by his community and employees.
+                        </p>
                         <div class="">
                             <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                             <a href="#h-gal" class="btn">See More</a>

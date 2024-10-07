@@ -31,9 +31,10 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Vidia S. Roopchand</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: Friday, December 9, 2022</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h3 class="p-3">Date: 9th December, 2022</h3>
+                    <p class="p-3">A Principal Research Scientist at Pfizer with 27 years of experience in the vaccines division, Dr. Roopchand has played a pivotal role in developing the company’s COVID-19 vaccine in collaboration with BioNTech. Born on August 1, 1967, on Wakenaam Island, Essequibo River, Guyana, Dr. Roopchand’s passion for chemistry began at age 11 and led him to excel academically, first at the Sans Souci Methodist School and Anna Regina Multilateral School, and then with distinction at the University of Guyana in Chemistry. He furthered his studies in New York, obtaining master’s degrees in Immunology from New York Medical College and Chemical Engineering from Columbia University. His expertise in these fields has been instrumental in advancing m-RNA vaccine research. Roopchand credits his achievements to the encouragement of his family and mentors, including his parents and Uncle Ronald Rahat. 
+                    </p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

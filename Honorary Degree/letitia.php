@@ -34,9 +34,10 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Letitia Wright</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: February 1, 2023</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h3 class="p-3">Date: 1st February, 2023</h3>
+                    <p class="p-3">Letitia Wright is a British actress born in Guyana and celebrated for her role as Shuri in Black Panther. Leaving Guyana at age 7, Wright expressed profound gratitude for the recognition, reflecting on her Guyanese upbringing and her family’s struggles to build a better future. She highlighted the values of humility, patience, and faith as guiding forces in her journey through numerous challenges in the acting world, attributing her success to perseverance and belief. During her visit, Wright also received the Key to the City of Georgetown, a symbolic honor that she pledged to uphold with dignity. The ceremony further celebrated her roots, with the president presenting her with a framed copy of her Guyanese birth certificate and her parents’ marriage certificate, deepening her connection to her homeland.
+                    </p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

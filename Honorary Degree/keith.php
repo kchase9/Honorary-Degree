@@ -32,9 +32,10 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Keith Waithe</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: November 9, 2023</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Doctorate in Excellence in the Arts</h2>
+                    <h3 class="p-3">Date: 9th November, 2023</h3>
+                    <p class="p-3">A virtuoso flautist, Waithe founded the Macusi Players, a jazz band inspired by the Macushi people of Guyana, blending jazz, classical, and global sounds with his unique "vocal gymnastics" technique. Born in Georgetown, Waithe’s musical journey began with the trumpet, but he soon fell in love with the flute, earning a British Council scholarship in 1973 to study at the University of Surrey and the Royal Military School of Music. In the 1990s, he established Essequibo Music to support Black British artists and advance cultural education. His performances, which often evoke the natural beauty of Guyana’s rainforests using his collection of over 200 flutes, have graced festivals and events worldwide, including the Commonwealth Heads of Government meeting. Celebrated with numerous awards, including the Wordsworth McAndrew Award and the WOM@TT Best of British Award, Waithe was invited to perform at Guyana’s golden jubilee in 2016.
+                    </p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

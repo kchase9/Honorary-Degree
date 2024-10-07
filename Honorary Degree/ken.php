@@ -30,10 +30,10 @@
         <div class="container">
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
-                    <h1 class="p-3">Kenneth Singh</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: Nov 11,2023</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h1 class="p-3">Kanhai Ken Singh</h1>
+                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h3 class="p-3">Date: 11th November,2023</h3>
+                    <p class="p-3">Kanhai Ken Singh is a Guyana-born Canadian entrepreneur and influential business leader. Owner of prominent companies like Atlas Cargo and Canadian Customs Brokers Inc., Singh has led in fields spanning transportation, security, customs, and trade. Born in Strangroen, East Coast Demerara, he moved to Canada in 1977 and earned degrees in Sociology and Business Administration from York University, followed by specialized certifications in traffic, cargo insurance, and project management. Known for his global charitable initiatives over the past 40 years, Singh has received numerous awards, including Ottawa’s Businessman of the Year (2005) and honors from Singapore and Tanzania. Active on advisory boards at York University and Humber College, and a member of the Indo-Canadian Chambers of Commerce, Singh remains dedicated to inspiring others through his message on the importance of hard work, specialization, and lifelong learning.</p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

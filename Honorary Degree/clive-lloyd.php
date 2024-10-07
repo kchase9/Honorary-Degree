@@ -31,9 +31,9 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Clive Lloyd</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: Friday, December 9, 2022</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h3 class="p-3">Date: 9th December, 2022</h3>
+                    <p class="p-3">Born in Queenstown, Georgetown, Lloyd is celebrated as one of the most successful West Indian cricket captains, leading his team to an unmatched 27-game unbeaten streak and consecutive Cricket World Cup victories in 1975 and 1979. Lloyd's accolades include being appointed a Commander of the Order of the British Empire (CBE) for his services to the sport. Beyond his cricketing career, he has contributed as a coach and served with the International Cricket Council. In his acceptance speech, Lloyd advocated for addressing societal issues, including domestic abuse and racism, and highlighted the need for the development of sports facilities, urging upgrades to the Providence Stadium as a tribute to Caribbean sports legends.</p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

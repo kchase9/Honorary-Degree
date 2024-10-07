@@ -32,9 +32,10 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">William Andrew Boyle</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: December 9, 2022</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h3 class="p-3">Date: 9th December, 2022</h3>
+                    <p class="p-3">William Andrew Boyle, CEO of Eureka Medical Laboratories (EML), has done significant work in health and entrepreneurship. A microbiologist and visionary entrepreneur, Boyle has expanded EML to nine branches throughout Guyana and diversified into the oil and gas sector through a strategic partnership with Atlantic Offshore Medical Services. Born on May 11, 1964, Boyle attributes his success to the values of integrity and commitment taught by his grandfather. EML, under Boyle’s leadership, played a pivotal role in COVID-19 testing, collaborating with the government for airport screenings. His contributions have earned him honors like the 2018 Entrepreneur Laureate Award from the Anthony N. Sabga Caribbean Awards for Excellence and the Golden Arrow Award of Achievement. With his autobiography Aspire: Dare to Dream slated for release in early 2023, Boyle, at 58, continues to inspire others through his motto, “The sky is the limit.”
+                    </p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

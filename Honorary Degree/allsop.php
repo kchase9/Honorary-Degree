@@ -33,9 +33,10 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Jeannette Allsop</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: November 11, 2023</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h3 class="p-3">Date: 11th November, 2023</h3>
+                    <p class="p-3">Dr. Jeannette Allsopp, a distinguished linguist and lexicographer, is recognized for her impactful work in Caribbean linguistics and lexicography. As the retired Senior Research Fellow in Lexicography and founding Director of the Richard and Jeannette Allsopp Centre for Caribbean Lexicography at The University of the West Indies, Cave Hill Campus, Dr. Allsopp has played a pivotal role in advancing Caribbean language studies. She holds a PhD in Linguistics from London Metropolitan University and has been honored with prestigious awards, including the EURALEX Verbatim Award and a Fulbright Research Fellowship. From 2010 to 2012, she served as President of the Society for Caribbean Linguistics and now consults for the Third Edition of the *Oxford English Dictionary* on Caribbean languages. Her 73 publications include landmark works such as the *Caribbean Multilingual Dictionary of Flora, Fauna and Foods* (2003) and *Language, Culture and Caribbean Identity* (2012). Dr. Allsopp’s research encompasses Caribbean lexicography, Creole linguistics, language acquisition, and teaching methodology. Her dedication to the field is further recognized through her recent election to the Board of the Dictionary Society of North America.
+                    </p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>

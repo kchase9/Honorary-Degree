@@ -33,9 +33,10 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Ameena Gafoor</h1>
-                    <h2 class="p-3">Honorary Doctorate in Blank</h2>
-                    <h3 class="p-3">Date: Friday, December 9, 2022</h3>
-                    <p class="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h3 class="p-3">Date: 9th December, 2022</h3>
+                    <p class="p-3">Ameena Gafoor, born in 1941, was a distinguished philanthropist, cultural advocate, and literary patron in Guyana, known for her dedication to promoting the arts and education. Rising from humble beginnings, Gafoor played a transformative role as Secretary of the Arts Forum Inc. and Executive Editor of the Caribbean Review of Books, championing underrepresented voices in literature. She founded the Ameena Gafoor Institute, published The Arts Journal, and authored key works, including the first major study of Roy Heath’s fiction and her memoir, Lantern in the Wind (2020), which illuminates aspects of Muslim life in Guyana. Her influence extended through teaching positions at Central and Tutorial High Schools, as well as through the Gafoor Foundation, which she co-founded to support medical, educational, and sports initiatives, including the Ameena Gafoor Medical and Dialysis Centre. Honored with multiple awards, including the National Medal of Service, Gafoor’s legacy reached globally with the founding of the Ameena Gafoor Institute for the Study of Indentureship and its Legacies at Cambridge University. President Dr. Irfaan Ali celebrated her life’s work, noting her kindness, humility, and profound impact on Guyana’s cultural landscape.
+                    </p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>
