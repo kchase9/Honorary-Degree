@@ -32,7 +32,7 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Baroness Valerie Amos</h1>
-                    <h2 class="p-3">Doctorate of Letters</h2>
+                    <h2 class="p-3">Doctorate of Laws</h2>
                     <h3 class="p-3">Date: 10th November, 2023</h3>
                     <p class="p-3">Baroness Valerie Amos, born in British Guiana (now Guyana), is a distinguished leader in public service, education, and advocacy for diversity and equality. Recently named a Lady Companion of the Most Noble Order of the Garter, she is the first person of color to receive this prestigious honor. Amos broke multiple barriers throughout her career, including becoming the first black woman to serve in a British Cabinet and as Leader of the House of Lords (2003-2007), the UN Under-Secretary-General for Humanitarian Affairs, British High Commissioner to Australia, and the first black head of both SOAS and University College Oxford. Passionate about inclusive education, she has championed initiatives that increase diversity within academia and advocate for representation, helping reshape educational cultures to be more welcoming to all students. Baroness Amos will soon receive an Honorary Doctor of Laws from the University of Guyana, marking yet another milestone in her career dedicated to public service and global leadership.
                     </p>

@@ -337,11 +337,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="btn-content">
+                    <a class="btn" href="index.php" style="margin-top:24px"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
+                </div>
                 <div class="footnotes">
                     <small>
                         <sup>1</sup>If the Honorary degree is being conferred outside a normal Graduation, the Graduation Committee will not be consulted.
                     </small>
                 </div>
+
+                
+                
             </div>
             
         </div>

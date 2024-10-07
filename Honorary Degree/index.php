@@ -122,119 +122,115 @@
 
                 <!-- The information in this table is incoorect and is to be changed to reflect accurate information -->
                 <table class="col-12">
-                    <tr>
-                        <th>Name</th>
-                        <th>Degree</th>
-                        <th>Occasion</th>
-                        <th>Date</th>
-                    </tr>
-                    <tr>
-                        <td><a href="clive-lloyd.php">Sir Clive Lloyd</a></td>
-                        <td>Honorary Doctor of Letters</td>
-                        <td>56th Convocation</td>
-                        <td>9th December, 2022</td>
-                    </tr>
-                    <tr>
-                        <td><a href="vidia.php">Vidia S. Roopchand</a></td>
-                        <td>No Info Available</td>
-                        <td>56th Convocation</td>
-                        <td>No Date</td>
-                    </tr>
-                    <tr>
-                        <td><a href="desiree.php">Hon Madame Desiree Bernard</a></td>
-                        <td>No Info Available</td>
-                        <td>56th Convocation</td>
-                        <td>No Date</td>
-                    </tr>
-                    <tr>
-                        <td><a href="letitia.php">Letitia Wright</a></td>
-                        <td>Honorary Doctor of Letters and the Arts</td>
-                        <td>56th Convocation</td>
-                        <td>27th January, 2023</td>
-                    </tr>
-                    <tr>
-                        <td><a href="dave.php">Dave Martins</a></td>
-                        <td>Honorary Doctor of Letters</td>
-                        <td>56th Convocation</td>
-                        <td>9th December, 2022</td>
-                    </tr>
-                    <tr>
-                        <td><a href="andrew.php">William Andrew Boyle</a></td>
-                        <td>Honorary Doctor of Letters</td>
-                        <td>56th Convocation</td>
-                        <td>9th December, 2022</td>
-                    </tr>
-                    <tr>
-                        <td><a href="ameena.php">Ameena Gafoor</a></td>
-                        <td>Honorary Doctor of Letters</td>
-                        <td>56th Convocation</td>
-                        <td>9th December, 2022</td>
-                    </tr>
-                    <tr>
-                        <td><a href="amos.php">Baroness Valerie Amos</a></td>
-                        <td>Honorary Doctor of Law</td>
-                        <td>56th Convocation</td>
-                        <td>7th November, 2023</td>
-                    </tr>
-                    <tr>
-                        <td><a href="rohan.php">Rohan Kanhai</a></td>
-                        <td>Honorary Doctorate in Sport</td>
-                        <td>56th Convocation</td>
-                        <td>9th November, 2023</td>
-                    </tr>
-                    <tr>
-                        <td><a href="ken.php">Kenneth Singh</a></td>
-                        <td>Honorary Doctorate in Business</td> 
-                        <td>56th Convocation</td>
-                        <td>9th November, 2023</td>
-                    </tr>
-                    <tr>
-                        <td><a href="cch.php">Carol Christine Hilaria Pounder</a></td>
-                        <td>Honorary Doctorate Degree in Excellence in Fine Arts</td>
-                        <td>56th Convocation</td>
-                        <td>11th November, 2023</td>
-                    </tr>
-                    <tr>
-                        <td><a href="keith.php">Keith Waithe</a></td>
-                        <td>Honorary Doctorate Degree in Excellence in Fine Arts</td>
-                        <td>56th Convocation</td>
-                        <td>11th November, 2023</td>
-                    </tr>
-                    <tr>
-                        <td><a href="frank.php">Frank Woon-A-Tai</a></td>
-                        <td>Honorary Doctorate in Sport</td>
-                        <td>56th Convocation</td>
-                        <td>9th November, 2023</td>
-                    </tr>
-                    <tr>
-                        <td><a href="joseph.php">Joseph Perreira</a></td>
-                        <td>Honorary Doctorate in Sport</td>
-                        <td>56th Convocation</td>
-                        <td>9th November, 2023</td>
-                    </tr>
-                    <tr>
-                        <td><a href="allsop.php">Jeanette Allsop</a></td>
-                        <td>No Info Available</td>
-                        <td>56th Convocation</td>
-                        <td>No Date</td>
-                    </tr>
-                    <tr>
-                        <td><a href="abdool-gafoor.php">Abdool Gafoor</a></td>
-                        <td>No Info Available</td>
-                        <td>56th Convocation</td>
-                        <td>No Date</td>
-                    </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Degree</th>
+                    <th>Occasion</th>
+                    <th>Date</th>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="desiree.php">Hon Madame Desiree Bernard</a></td>
+                    <td><a href="desiree.php">Doctorate of Laws</a></td>
+                    <td><a href="desiree.php">Independent Ceremony</a></td>
+                    <td><a href="desiree.php">2007</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="clive-lloyd.php">Sir Clive Lloyd</a></td>
+                    <td><a href="clive-lloyd.php">Doctorate of Letters</a></td>
+                    <td><a href="clive-lloyd.php">56th Convocation</a></td>
+                    <td><a href="clive-lloyd.php">9th December, 2022</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="vidia.php">Vidia S. Roopchand</a></td>
+                    <td><a href="vidia.php">Doctorate of Letters</a></td>
+                    <td><a href="vidia.php">56th Convocation</a></td>
+                    <td><a href="vidia.php">9th December, 2022</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="dave.php">Dave Martins</a></td>
+                    <td><a href="dave.php">Doctorate of Letters</a></td>
+                    <td><a href="dave.php">56th Convocation</a></td>
+                    <td><a href="dave.php">9th December, 2022</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="abdool-gafoor.php">Abdool Gafoor</a></td>
+                    <td><a href="abdool-gafoor.php">Doctorate of Letters</a></td>
+                    <td><a href="abdool-gafoor.php">56th Convocation</a></td>
+                    <td><a href="abdool-gafoor.php">9th December, 2022</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="andrew.php">William Andrew Boyle</a></td>
+                    <td><a href="andrew.php">Doctorate of Letters</a></td>
+                    <td><a href="andrew.php">56th Convocation</a></td>
+                    <td><a href="andrew.php">9th December, 2022</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="letitia.php">Letitia Wright</a></td>
+                    <td><a href="letitia.php">Doctorate of Letters</a></td>
+                    <td><a href="letitia.php">Independent Ceremony</a></td>
+                    <td><a href="letitia.php">1st February, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="keith.php">Keith Waithe</a></td>
+                    <td><a href="keith.php">Doctorate in Excellence in the Arts</a></td>
+                    <td><a href="keith.php">57th Convocation</a></td>
+                    <td><a href="keith.php">9th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="frank.php">Frank Woon-A-Tai</a></td>
+                    <td><a href="frank.php">Doctorate in Sports and Civic Engagement</a></td>
+                    <td><a href="frank.php">57th Convocation</a></td>
+                    <td><a href="frank.php">9th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="amos.php">Baroness Valerie Amos</a></td>
+                    <td><a href="amos.php">Doctorate of Laws</a></td>
+                    <td><a href="amos.php">57th Convocation</a></td>
+                    <td><a href="amos.php">10th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="ken.php">Kanhai Ken Singh</a></td>
+                    <td><a href="ken.php">Doctorate of Letters</a></td> 
+                    <td><a href="ken.php">57th Convocation</a></td>
+                    <td><a href="ken.php">11th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="cch.php">Carol Christine Hilaria Pounder</a></td>
+                    <td><a href="cch.php">Doctorate for Excellence in Arts</a></td>
+                    <td><a href="cch.php">57th Convocation</a></td>
+                    <td><a href="cch.php">11th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="allsop.php">Jeanette Allsop</a></td>
+                    <td><a href="allsop.php">Doctorate of Letters</a></td>
+                    <td><a href="allsop.php">57th Convocation</a></td>
+                    <td><a href="allsop.php">11th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="rohan.php">Rohan Kanhai</a></td>
+                    <td><a href="rohan.php">Doctorate in Sports and Civic Engagement</a></td>
+                    <td><a href="rohan.php">57th Convocation</a></td>
+                    <td><a href="rohan.php">18th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="joseph.php">Joseph "Reds" Perreira</a></td>
+                    <td><a href="joseph.php">Doctorate in Sports and Civic Engagement</a></td>
+                    <td><a href="joseph.php">57th Convocation</a></td>
+                    <td><a href="joseph.php">18th November, 2023</a></td>
+                </tr>
+
 
                     
                 </table>
 
                 <div class="btn-content">
-                    <a href="guidelines.php" class="btn">
-                        View Guidelines
-                    </a>
                     <a href="https://uog.edu.gy/form/nomination-for-honorary-degree"  class="btn">
                         Nominate a Recipient
                     </a>
+                    <a href="guidelines.php" class="btn">
+                        View Guidelines
+                    </a>
+                    
                     
                 </div>
 

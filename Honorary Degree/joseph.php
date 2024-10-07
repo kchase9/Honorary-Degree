@@ -31,7 +31,7 @@
             <div class="col-lg-6 col-md-12 ">
                 <div class="align-items-start d-flex mb-3 flex-column">
                     <h1 class="p-3">Joseph "Reds" Perreira</h1>
-                    <h2 class="p-3">Honorary Doctorate in Sports and Civic Engagement </h2>
+                    <h2 class="p-3">Doctorate in Sports and Civic Engagement </h2>
                     <h3 class="p-3">Date: 18th Novemeber, 2023</h3>
                     <p class="p-3">Born in Essequibo, Guyana, Perreira has been based in St. Lucia since 1984, where he initially led the OECS Sports Desk. Known for his insightful and passionate cricket commentary, he is a cherished figure in cricket circles and has leveraged his platform to promote unity and social change. At the ceremony, Perreira, now 84, expressed his gratitude, highlighting sports' power to drive community engagement and inspire. He encouraged graduates to pursue their dreams with resilience, reinforcing his legacy of dedication to sports and civic values. This honor celebrates his significant contributions to the sports commentary field and his influence on generations of sports enthusiasts.
                     </p>
