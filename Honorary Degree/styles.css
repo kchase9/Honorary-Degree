@@ -275,6 +275,21 @@ hr{
         font-size: 11px;
     }
 
+    a{
+        font-size: 11px;
+        color:black;
+        text-decoration: none;
+    }
+    
+    tr.table-nav td{
+        padding: 4px 0;
+    }
+
+    .btn-content #nom-btn{
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
     .hero-section{
         padding: 81px 50px;
     }
@@ -297,8 +312,6 @@ hr{
     .btn-content .btn{
         font-size: 12px;
     }
-
-
 
     /* Recipients */
     .rec h1{
