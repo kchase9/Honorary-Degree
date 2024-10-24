@@ -62,7 +62,7 @@ li{
 }
 
 th{
-    background-color: #003478;
+    background-color: var(--main-bg-color);
     font-family: "Manrope", Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #F0FFF3;
@@ -135,7 +135,6 @@ table{
 
 
 .main-pic{
-    background: url('img/Hon Madame Desiree Bernard Honorary Doctorate of Laws17.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -29,15 +29,15 @@
     <div class="intro">
         <div class="">
             <div class="row w-100">
-                <div class="col-md-6 main-pic">
+                <div class="col-md-6 main-pic" style="background-image: url('img/Hon Madame Desiree Bernard Honorary Doctorate of Laws17.jpg');">
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="align-items-right bg-green" id="bio-preview">
-                        <h1 class="p-3">Hon. Madame Desiree Bernard Ret'd</h1>
+                        <h1 class="p-3">Hon. Dr. Madame Desiree Bernard Ret'd</h1>
                         <p class="p-3">Hon. Madam Justice Desiree Bernard is a trailblazing legal figure in the Caribbean judiciary, renowned for her pioneering achievements and advocacy for gender equality. Beginning her career in 1963 after earning her Bachelor of Laws from the University of London, she became Guyana’s first female judge in the High Court in 1980. Her historic career milestones include being appointed the first female Justice of Appeal in 1992, Chief Justice in 1996, Chancellor of the Judiciary in 2001, and the first female judge on the Caribbean Court of Justice in 2005. Beyond her judicial accomplishments, Justice Bernard has made significant contributions to gender equality and human rights, serving on bodies such as the United Nations CEDAW and the International Federation of Women Lawyers. She co-founded the Caribbean Women’s Association and the Georgetown Toastmistress Club, advancing women’s rights and leadership. Honored with awards like the Order of Roraima of Guyana and the CARICOM Triennial Award for Women, Justice Bernard is celebrated as a pioneer in law and a champion of women’s rights in the Caribbean.</p>
                         <div class="btn-content">
                             <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                            <a href="#h-gal" class="btn">See More</a>
+                            <a href=".content" class="btn">See More</a>
                         </div>
                     </div>
                     
