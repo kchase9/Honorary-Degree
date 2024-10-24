@@ -70,6 +70,9 @@
                     <div class="carousel-item active">
                         <img src="img/Frank-2-phvbq7j577u2b2xmwgi8ake9e68e1rhhuei7rx52b2 (1).jpg" class="d-block">
                     </div>
+                    <div class="carousel-item">
+                        <img src="img\Frank Woon-A-Tai~2.jpg" class="d-block">
+                    </div>
                     </div>
                     <!--  Controls -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">

@@ -1,5 +1,10 @@
+:root{
+    --main-bg-color: #304c3b;
+    --secondary-bg-color: #101e18;
+}
+
 body {
-    background-color: #F0FFF3;
+    background-color: #f1ede4;
 }
 
 h1{
@@ -92,11 +97,54 @@ table{
 
 #header_h1 a:hover{
     transform: scale(1.2); 
+}
 
+#page-heading{
+    margin-top: 90px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #183E33;
 }
 
 .other-actions{
     text-align: center;
+}
+
+.intro .bg-green{
+    margin: 0;
+    background-color: var(--secondary-bg-color);
+}
+
+.bg-green{
+    background-color: var(--main-bg-color);
+    padding: 64px;
+    margin: 96px;
+}
+
+#announcement h2{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+#announcement p{
+    font-size: 20px;
+}
+
+
+.main-pic{
+    background: url('img/Hon Madame Desiree Bernard Honorary Doctorate of Laws17.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Fix Bootstrap setting */
+/* Add to mobile */
+.intro .col-md-6{
+    padding: 0%;
 }
 
 .btn-content{
@@ -165,23 +213,14 @@ table{
 }
 
 /* Recipients */
-.intro {
-    padding: 100px 0;
-    min-height: 540px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-    margin-bottom: 60px;
-}
+
 
 .rec h1 {
     color: #F0FFF3;
-    font-size: 96px;
+    font-size: 52px;
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     text-transform:uppercase;
-    font-weight: bold;
+    font-weight: 400;
     font-style: italic;
     line-height: 100%;
 }
@@ -201,6 +240,21 @@ table{
     font-size: 20px;
 }
 
+#bio-preview{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#bio-preview .btn-content{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+
 .rec p{
     color: #F0FFF3;
     font-family: "Manrope", Arial, Helvetica, sans-serif;
@@ -211,14 +265,13 @@ table{
 hr{
     border: none;
     height: 2px;
-    width: 120px;
+    width: 220px;
     background: #1C473B;
-    text-align: right;
-    margin-left: auto;
+    text-align: center;
     margin-bottom: 30px;
 }
 
-.carousel{
+/* .carousel{
     position: relative;
     margin-bottom: 60px;
 }
@@ -226,8 +279,7 @@ hr{
 .carousel img{
     max-height: 500px;
     width: auto;
-}
-
+} */
 
 .rec a.btn{
     background-color: none;
@@ -239,13 +291,42 @@ hr{
 }
 
 #h-gal{
-    text-align: end;
     color: #1C473B;
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 32px;
     text-transform: uppercase;
+    text-align: center;
 }
+
+.rec .content{
+    margin: 0;
+    background: none;
+    border: none;
+    padding: 24px;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Gallery */
+
+.masonry-container {
+    column-count: 3;
+    column-gap: 10px;
+}
+.masonry-item {
+    display: inline-block;
+    width: 100%;
+}
+.masonry-item img {
+    display:block;
+    width: 100%;
+}
+
 
 @media only screen and (max-width: 720px){
     h1{
@@ -342,13 +423,17 @@ hr{
 
     .intro {
         padding: 135px 0;
-        min-height: 540px;
+        /* min-height: 540px;
         background-position: 75% 75%;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
         position: relative;
         z-index: 0;
         margin-bottom: 60px;
+    }
+
+    .main-pic{
+        display: none;
     }
 }
 

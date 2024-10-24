@@ -147,6 +147,12 @@
                     <td><a href="vidia.php">9th December, 2022</a></td>
                 </tr>
                 <tr class="table-nav">
+                    <td><a href="ameena.php">Ameena Gafoor</a></td>
+                    <td><a href="ameena.php">Doctorate of Letters</a></td>
+                    <td><a href="ameena.php">56th Convocation</a></td>
+                    <td><a href="ameena.php">9th December, 2022</a></td>
+                </tr>
+                <tr class="table-nav">
                     <td><a href="dave.php">Dave Martins</a></td>
                     <td><a href="dave.php">Doctorate of Letters</a></td>
                     <td><a href="dave.php">56th Convocation</a></td>
@@ -201,10 +207,16 @@
                     <td><a href="cch.php">11th November, 2023</a></td>
                 </tr>
                 <tr class="table-nav">
-                    <td><a href="allsop.php">Jeanette Allsop</a></td>
-                    <td><a href="allsop.php">Doctorate of Letters</a></td>
-                    <td><a href="allsop.php">57th Convocation</a></td>
-                    <td><a href="allsop.php">11th November, 2023</a></td>
+                    <td><a href="jeannette-allsop.php">Jeanette Allsop</a></td>
+                    <td><a href="jeannette-allsop.php">Doctorate of Letters</a></td>
+                    <td><a href="jeannette-allsop.php">57th Convocation</a></td>
+                    <td><a href="jeannette-allsop.php">11th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="richard-allsop.php">Richard Allsop</a></td>
+                    <td><a href="richard-allsop.php">Doctorate of Letters</a></td>
+                    <td><a href="richard-allsop.php">57th Convocation</a></td>
+                    <td><a href="richard-allsop.php">11th November, 2023</a></td>
                 </tr>
                 <tr class="table-nav">
                     <td><a href="rohan.php">Rohan Kanhai</a></td>

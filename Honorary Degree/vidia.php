@@ -64,13 +64,25 @@
                     <div class="carousel-indicators">
                         <!-- Those buttons below -->
                     <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
 
                     <!-- Images -->
                     <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="" class="d-block">
-                    </div>
+                        <div class="carousel-item active">
+                                <img src="img/Vidia Roopchand2.JPG" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="img/Vidia Roopchand3.JPG" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="img/Vidia Roopchand4.JPG" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="img/Vidia Roopchand1.JPG" class="d-block">
+                        </div>
                     </div>
                     <!--  Controls -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">

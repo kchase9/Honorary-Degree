@@ -63,13 +63,18 @@
                     <div class="carousel-indicators">
                         <!-- Those buttons below -->
                     <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
                     </div>
 
                     <!-- Images -->
                     <div class="carousel-inner">
-                    <div class="carousel-item active">
+                        <div class="carousel-item active">
+                            <img src="img\CCH Pounder~2.jpg" class="d-block">
+                        </div>
+                    <div class="carousel-item">
                         <img src="img/CCH.jpeg" class="d-block">
                     </div>
+                    
                     </div>
                     <!--  Controls -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">

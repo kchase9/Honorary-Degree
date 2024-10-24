@@ -26,88 +26,85 @@
 </head>
 <body>
     <div class="rec">
-    <div class="intro w-100" style="background-image: url('img/madame-bernard.png');">
-        <div class="container">
-            <div class="col-lg-6 col-md-12 ">
-                <div class="align-items-start d-flex mb-3 flex-column">
-                    <h1 class="p-3">Madame Desiree Bernard</h1>
-                    <h2 class="p-3">Doctorate of Laws</h2>
-                    <h3 class="p-3">Date: 2007</h3>
-                    <p class="p-3">Hon. Madam Justice Desiree Bernard is a trailblazing legal figure in the Caribbean judiciary, renowned for her pioneering achievements and advocacy for gender equality. Beginning her career in 1963 after earning her Bachelor of Laws from the University of London, she became Guyana’s first female judge in the High Court in 1980. Her historic career milestones include being appointed the first female Justice of Appeal in 1992, Chief Justice in 1996, Chancellor of the Judiciary in 2001, and the first female judge on the Caribbean Court of Justice in 2005. Beyond her judicial accomplishments, Justice Bernard has made significant contributions to gender equality and human rights, serving on bodies such as the United Nations CEDAW and the International Federation of Women Lawyers. She co-founded the Caribbean Women’s Association and the Georgetown Toastmistress Club, advancing women’s rights and leadership. Honored with awards like the Order of Roraima of Guyana and the CARICOM Triennial Award for Women, Justice Bernard is celebrated as a pioneer in law and a champion of women’s rights in the Caribbean.</p>
-                    <div class="">
-                        <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
-                    </div>
+    <div class="intro">
+        <div class="">
+            <div class="row w-100">
+                <div class="col-md-6 main-pic">
                 </div>
-                
+                <div class="col-md-6 col-sm-12">
+                    <div class="align-items-right bg-green" id="bio-preview">
+                        <h1 class="p-3">Hon. Madame Desiree Bernard Ret'd</h1>
+                        <p class="p-3">Hon. Madam Justice Desiree Bernard is a trailblazing legal figure in the Caribbean judiciary, renowned for her pioneering achievements and advocacy for gender equality. Beginning her career in 1963 after earning her Bachelor of Laws from the University of London, she became Guyana’s first female judge in the High Court in 1980. Her historic career milestones include being appointed the first female Justice of Appeal in 1992, Chief Justice in 1996, Chancellor of the Judiciary in 2001, and the first female judge on the Caribbean Court of Justice in 2005. Beyond her judicial accomplishments, Justice Bernard has made significant contributions to gender equality and human rights, serving on bodies such as the United Nations CEDAW and the International Federation of Women Lawyers. She co-founded the Caribbean Women’s Association and the Georgetown Toastmistress Club, advancing women’s rights and leadership. Honored with awards like the Order of Roraima of Guyana and the CARICOM Triennial Award for Women, Justice Bernard is celebrated as a pioneer in law and a champion of women’s rights in the Caribbean.</p>
+                        <div class="btn-content">
+                            <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
+                            <a href="#h-gal" class="btn">See More</a>
+                        </div>
+                    </div>
+                    
+                </div>   
             </div>
-
-            
         </div>
-    
     </div>
     
-    <div class="container">
-        <div id="gallery">
-            <div class="text-lg-end">
-                <h2 id="h-gal">Gallery</h2>
+        <div class="content">
+            <div id="page-heading">
+                <h2 id="h-gal">Conferral of an Honorary Doctorate of Laws on Justice Hon Dr Desiree Bernard retd</h2>
                 <hr>
             </div>
-        </div>
+            <div class="video-container">
+                <iframe 
+                width="1236" 
+                height="695" 
+                src="https://www.youtube.com/embed/96p9UibMazI" 
+                title="Conferral of an Honorary Doctorate of Laws  on Justice Hon Dr Desiree Bernard retd" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            
+            </div>
 
-        <!--  Image Gallery, adapted from Bootstrap -->
 
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center align-self-center">
-                <div id="img-carousel" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <!-- Those buttons below -->
-                        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-  
+            <!--  Image Gallery, adapted from Bootstrap -->
+            <div id="page-heading">
+                <h2 id="h-gal">Highlights from the Robing of Hon Dr Desiree Bernard</h2>
+                <hr>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="masonry-container">
+                        <div class="masonry-item">
+                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws9.jpg" class="img-fluid">
+                        </div>
+                        <div class="masonry-item">
+                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws11.jpg" class="img-fluid">
+                        </div>
+                        <div class="masonry-item">
+                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws12.jpg" class="img-fluid">
+                        </div>
+                        <div class="masonry-item">
+                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws13.jpg" class="img-fluid">
+                        </div>
+                        <div class="masonry-item">
+                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws17.jpg" class="img-fluid">
+                        </div>
+                        <div class="masonry-item">
+                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws54.jpg" class="img-fluid">
+                        </div>
                     </div>
-
-                    <!-- Images -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws9.jpg" class="d-block">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws11.jpg" class="d-block w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws12.jpg" class="d-block w-100" >
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws13.jpg" class="d-block w-100" >
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws17.jpg" class="d-block w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/Hon Madame Desiree Bernard Honorary Doctorate of Laws54.jpg" class="d-block w-100">
-                        </div>
-                    </div>
-                    <!--  Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
-        </div>
-        
             
+                
+            <div class="bg-green" id="announcement">
+                <h2>The University of Guyana Notes with Deep Regret the Passing of Dr. the Hon Justice Desiree Bernard, CCH <br>March 2, 1939 - March 28, 2024</h2>
 
-    </div>
+                <p>
+                    The University of Guyana extends sincere condolences to Caarolanne Bernard, and other family members, friends and members of the national, regional and international legal fraternity on the passing of our dear Justice the Hon Dr Desiree Bernard. <br>The University of Guyana was priveleged to have been able to honor the Hon. Desiree Bernard in 2022 as an iconic jurist and exemplary Guyanese woman and human. Even as we mourn her peaceful transition and pray that she is enveloped in eternal peace, we celebrate an inspirational life that is unparalleled in every way. <br>May her life's work continue to guide and impact the future. May God rest her soul.
+                </p>
+            </div>
+
+        </div>
     </div>
     
 </body>
