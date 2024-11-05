@@ -26,67 +26,42 @@
 </head>
 <body>
     <div class="rec">
-
-    <div class="intro w-100" style="background-image: url('img/ANDREW-BOYLE.jpg');">
-        <div class="container">
-            <div class="col-lg-6 col-md-12 ">
-                <div class="align-items-start d-flex mb-3 flex-column">
-                    <h1 class="p-3">William Andrew Boyle</h1>
-                    <h2 class="p-3">Doctorate of Letters</h2>
-                    <h3 class="p-3">Date: 9th December, 2022</h3>
-                    <p class="p-3">William Andrew Boyle, CEO of Eureka Medical Laboratories (EML), has done significant work in health and entrepreneurship. A microbiologist and visionary entrepreneur, Boyle has expanded EML to nine branches throughout Guyana and diversified into the oil and gas sector through a strategic partnership with Atlantic Offshore Medical Services. Born on May 11, 1964, Boyle attributes his success to the values of integrity and commitment taught by his grandfather. EML, under Boyle’s leadership, played a pivotal role in COVID-19 testing, collaborating with the government for airport screenings. His contributions have earned him honors like the 2018 Entrepreneur Laureate Award from the Anthony N. Sabga Caribbean Awards for Excellence and the Golden Arrow Award of Achievement. With his autobiography Aspire: Dare to Dream slated for release in early 2023, Boyle, at 58, continues to inspire others through his motto, “The sky is the limit.”
-                    </p>
-                    <div class="">
-                        <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+    <div class="intro" >
+        <div class="">
+            <div class="row w-100">
+                <div class="col-md-6 main-pic" style="background-image: url('img/William Andrew Boyle (1).jpg');">
+                </div>
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="align-items-right bg-green" id="bio-preview">
+                        <h1 class="p-3">William Andrew Boyle</h1>
+                        <p class="p-3">William Andrew Boyle, CEO of Eureka Medical Laboratories (EML), has done significant work in health and entrepreneurship. A microbiologist and visionary entrepreneur, Boyle has expanded EML to nine branches throughout Guyana and diversified into the oil and gas sector through a strategic partnership with Atlantic Offshore Medical Services. Born on May 11, 1964, Boyle attributes his success to the values of integrity and commitment taught by his grandfather. EML, under Boyle’s leadership, played a pivotal role in COVID-19 testing, collaborating with the government for airport screenings. His contributions have earned him honors like the 2018 Entrepreneur Laureate Award from the Anthony N. Sabga Caribbean Awards for Excellence and the Golden Arrow Award of Achievement. With his autobiography Aspire: Dare to Dream slated for release in early 2023, Boyle, at 58, continues to inspire others through his motto, “The sky is the limit.”
+                        </p>
+                        <div class="btn-content">
+                            <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
+                            <a href="#h-gal" class="btn">See More</a>
+                        </div>
                     </div>
                 </div>
-                
             </div>
-
-            
         </div>
     
     </div>
     
-    <div class="container">
-        <div id="gallery">
-            <div class="text-lg-end">
-                <h2 id="h-gal">Gallery</h2>
-                <hr>
-            </div>
+    <div class="content">
+        <div id="page-heading">
+            <h2 id="h-gal">Highlights from the robing of the Honorable Dr. William Andrew Boyle</h2>
+            <hr>
         </div>
 
-        <!--  Image Gallery, adapted from Bootstrap -->
-
         <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center align-self-center">
-                <div id="img-carousel" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <!-- Those buttons below -->
-                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div class="col-lg-12">
+                <div class="masonry-container">
+                <div class="masonry-item">
+                        <img src="img/William Andrew Boyle (1).jpg" class="img-fluid">
                     </div>
-
-                    <!-- Images -->
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/William Andrew Boyle (1).jpg" class="d-block">
-                    </div>
-                    </div>
-                    <!--  Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </div>
-        
-            
 
     </div>
     </div>

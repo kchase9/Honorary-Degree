@@ -22,7 +22,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Madame Desireee Bernard</title>
+    <title>Madame Desiree Bernard</title>
 </head>
 <body>
     <div class="rec">
@@ -37,7 +37,7 @@
                         <p class="p-3">Hon. Madam Justice Desiree Bernard is a trailblazing legal figure in the Caribbean judiciary, renowned for her pioneering achievements and advocacy for gender equality. Beginning her career in 1963 after earning her Bachelor of Laws from the University of London, she became Guyana’s first female judge in the High Court in 1980. Her historic career milestones include being appointed the first female Justice of Appeal in 1992, Chief Justice in 1996, Chancellor of the Judiciary in 2001, and the first female judge on the Caribbean Court of Justice in 2005. Beyond her judicial accomplishments, Justice Bernard has made significant contributions to gender equality and human rights, serving on bodies such as the United Nations CEDAW and the International Federation of Women Lawyers. She co-founded the Caribbean Women’s Association and the Georgetown Toastmistress Club, advancing women’s rights and leadership. Honored with awards like the Order of Roraima of Guyana and the CARICOM Triennial Award for Women, Justice Bernard is celebrated as a pioneer in law and a champion of women’s rights in the Caribbean.</p>
                         <div class="btn-content">
                             <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                            <a href=".content" class="btn">See More</a>
+                            <a href="#h-gal" class="btn">See More</a>
                         </div>
                     </div>
                     
