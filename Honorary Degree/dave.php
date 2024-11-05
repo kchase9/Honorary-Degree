@@ -26,66 +26,57 @@
 </head>
 <body>
     <div class="rec">
-    <div class="intro w-100" style="background-image: url('img/dave-martins.png');">
-        <div class="container">
-            <div class="col-lg-6 col-md-12 ">
-                <div class="align-items-start d-flex mb-3 flex-column">
+    <div class="intro w-100">
+        <div class="">
+            <div class="row w-100">
+            <div class="col-md-6 main-pic" style="background-image: url('img/dave-martins.png');"></div>
+             <div class="col-md-6 col-sm-12 ">
+                <div class="align-items-right bg-green" id="bio-preview">
                     <h1 class="p-3">Dave Martins</h1>
-                    <h2 class="p-3">Doctorate of Letters</h2>
-                    <h3 class="p-3">Date: 9th December, 2022</h3>
                     <p class="p-3">Dr. Dave Martins, a distinguished Guyanese musician, songwriter, and cultural icon, was born on April 10, 1935. Martins became renowned for his powerful use of Guyanese Creole and English, crafting songs and stories that authentically captured Caribbean life and identity. From 2017 to 2018, he served as UG’s second Artist-in-Residence, traveling throughout Guyana to share his music, culture, and pride through concerts, lectures, and masterclasses. His contributions were immortalized in the university-produced documentary, The Man Behind the Music: DAVE MARTINS. After his passing on August 18, 2024, following a prolonged illness, he was celebrated as a “Caribbean Hero” and “Timeless Voice,” leaving a legacy of cultural pride and artistic excellence.</p>
-                    <div class="">
+                    <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>
                     </div>
                 </div>
                 
+            </div>   
             </div>
+            
 
             
         </div>
     
     </div>
     
-    <div class="container">
-        <div id="gallery">
-            <div class="text-lg-end">
-                <h2 id="h-gal">Gallery</h2>
+    <div class="content">
+        <div id="page-heading">
+                <h2 id="h-gal">Robing of Hon Dr. Dave Martins</h2>
                 <hr>
-            </div>
         </div>
 
-        <!--  Image Gallery, adapted from Bootstrap -->
+        <div class="video-container">
+            <iframe 
+            width="1236" 
+            height="695" 
+            src="https://www.youtube.com/embed/6N769-sFVfA" 
+            title="Robing of Dr Dave Martins | 56th Convocation Ceremony University of Guyana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div id="page-heading">
+                <h2 id="h-gal">Highlights from the Robing of Hon Dr. Dave Martins</h2>
+                <hr>
+        </div>
 
         <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center align-self-center">
-                <div id="img-carousel" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <!-- Those buttons below -->
-                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div class="col-lg-12">
+                <div class="masonry-container">
+                    <div class="masonry-item">
+                        <img src="img/Dave Martins.jpg" class="img-fluid">
                     </div>
-
-                    <!-- Images -->
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/Dave Martins.jpg" class="d-block">
-                    </div>
-                    </div>
-                    <!--  Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </div>
-        
-            
-
     </div>
     </div>
 </body>
