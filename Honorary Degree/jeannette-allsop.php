@@ -28,73 +28,68 @@
 <!-- Main Content Section -->
     <div class="rec">
 
-    <div class="intro w-100" style="background-image: url('img/Allsop.jpg');">
-        <div class="container">
-            <div class="col-lg-6 col-md-12 ">
-                <div class="align-items-start d-flex mb-3 flex-column">
-                    <h1 class="p-3">Jeannette Allsop</h1>
-                    <h2 class="p-3">Doctorate of Letters</h2>
-                    <h3 class="p-3">Date: 11th November, 2023</h3>
-                    <p class="p-3">Dr. Jeannette Allsopp, a distinguished linguist and lexicographer, is recognized for her impactful work in Caribbean linguistics and lexicography. As the retired Senior Research Fellow in Lexicography and founding Director of the Richard and Jeannette Allsopp Centre for Caribbean Lexicography at The University of the West Indies, Cave Hill Campus, Dr. Allsopp has played a pivotal role in advancing Caribbean language studies. She holds a PhD in Linguistics from London Metropolitan University and has been honored with prestigious awards, including the EURALEX Verbatim Award and a Fulbright Research Fellowship. From 2010 to 2012, she served as President of the Society for Caribbean Linguistics and now consults for the Third Edition of the *Oxford English Dictionary* on Caribbean languages. Her 73 publications include landmark works such as the *Caribbean Multilingual Dictionary of Flora, Fauna and Foods* (2003) and *Language, Culture and Caribbean Identity* (2012). Dr. Allsopp’s research encompasses Caribbean lexicography, Creole linguistics, language acquisition, and teaching methodology. Her dedication to the field is further recognized through her recent election to the Board of the Dictionary Society of North America.
-                    </p>
-                    <div class="">
-                        <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
-                    </div>
+    <div class="intro w-100">
+        <div class="">
+            <div class="row w-100">
+                <div class="col-md-6 main-pic" style="background-image: url('img/Allsop.jpg');">
                 </div>
-                
+
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="align-items-right bg-green" id='bio-preview'>
+                        <h1 class="p-3">Jeannette Allsop</h1>
+                        <p class="p-3">Dr. Jeannette Allsopp, a distinguished linguist and lexicographer, is recognized for her impactful work in Caribbean linguistics and lexicography. As the retired Senior Research Fellow in Lexicography and founding Director of the Richard and Jeannette Allsopp Centre for Caribbean Lexicography at The University of the West Indies, Cave Hill Campus, Dr. Allsopp has played a pivotal role in advancing Caribbean language studies. She holds a PhD in Linguistics from London Metropolitan University and has been honored with prestigious awards, including the EURALEX Verbatim Award and a Fulbright Research Fellowship. From 2010 to 2012, she served as President of the Society for Caribbean Linguistics and now consults for the Third Edition of the *Oxford English Dictionary* on Caribbean languages. Her 73 publications include landmark works such as the *Caribbean Multilingual Dictionary of Flora, Fauna and Foods* (2003) and *Language, Culture and Caribbean Identity* (2012). Dr. Allsopp’s research encompasses Caribbean lexicography, Creole linguistics, language acquisition, and teaching methodology. Her dedication to the field is further recognized through her recent election to the Board of the Dictionary Society of North America.
+                        </p>
+                        <div class="btn-content">
+                            <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
+                            <a href="#h-gal" class="btn">See More</a>
+                        </div>
+                    </div>
+                    
+                </div>   
             </div>
+            
 
             
         </div>
     
     </div>
     
-    <div class="container">
-        <div id="gallery">
-            <div class="text-lg-end">
-                <h3 style="color: black">Dr. Jeanette Allsopp received this joint honour alongside her hustband, the late Dr. Richard Allsopp, who received it post mortem</h3>
-                <h2 id="h-gal">Gallery</h2>
+    <div class="content">
+        <div id="page-heading">
+                <h2 id="h-gal">Conferral of a Doctorate of Letters onto Hon Dr Jeanette Allsop</h2>
                 <hr>
             </div>
         </div>
 
-        <!--  Image Gallery, adapted from Bootstrap -->
+        <div class="video-container">
+            <iframe 
+                width="1236" 
+                height="695" src="https://drive.google.com/file/d/1rscDIe7uA9XXTh5nPXTMGERjN705XFTH/preview" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="page-heading">
+                <h2 id="h-gal">Highlights from the Robing of Dr Jeanette Allsop</h2>
+                <hr>
+            </div>
+        </div>
 
         <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center align-self-center">
-                <div id="img-carousel" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <!-- Those buttons below -->
-                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div class="col-lg-12">
+                <div class="masonry-container">
+                    <div class="masonry-item">
+                        <img src="img\Dr Jeanette Allsopp~2.jpg" class="img-fluid">
                     </div>
-
-                    <!-- Images -->
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img\Dr Jeanette Allsopp~2.jpg" class="d-block">
+                    <div class="masonry-item">
+                        <img src="img/Allsop (1).jpg" class="img-fluid">
                     </div>
-                    <div class="carousel-item">
-                        <img src="img\Dr Richard Allsopp.jpg" class="d-block">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/Allsop (1).jpg" class="d-block">
-                    </div>
-                    </div>
-                    <!--  Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </div>
-        
-            
+
+    
 
     </div>
     </div>
