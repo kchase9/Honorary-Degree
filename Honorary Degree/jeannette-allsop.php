@@ -27,8 +27,7 @@
 <body>
 <!-- Main Content Section -->
     <div class="rec">
-
-    <div class="intro w-100">
+    <div class="intro">
         <div class="">
             <div class="row w-100">
                 <div class="col-md-6 main-pic" style="background-image: url('img/Dr Jeanette Allsopp~2.jpg');">
@@ -36,7 +35,7 @@
 
                 <div class="col-md-6 col-sm-12 ">
                     <div class="align-items-right bg-green" id='bio-preview'>
-                        <h1 class="p-3">Jeannette Allsop</h1>
+                        <h1 class="p-3">Jeannette Allsopp</h1>
                         <p class="p-3">Dr. Jeannette Allsopp, a distinguished linguist and lexicographer, is recognized for her impactful work in Caribbean linguistics and lexicography. As the retired Senior Research Fellow in Lexicography and founding Director of the Richard and Jeannette Allsopp Centre for Caribbean Lexicography at The University of the West Indies, Cave Hill Campus, Dr. Allsopp has played a pivotal role in advancing Caribbean language studies. She holds a PhD in Linguistics from London Metropolitan University and has been honored with prestigious awards, including the EURALEX Verbatim Award and a Fulbright Research Fellowship. From 2010 to 2012, she served as President of the Society for Caribbean Linguistics and now consults for the Third Edition of the *Oxford English Dictionary* on Caribbean languages. Her 73 publications include landmark works such as the *Caribbean Multilingual Dictionary of Flora, Fauna and Foods* (2003) and *Language, Culture and Caribbean Identity* (2012). Dr. Allsopp’s research encompasses Caribbean lexicography, Creole linguistics, language acquisition, and teaching methodology. Her dedication to the field is further recognized through her recent election to the Board of the Dictionary Society of North America.
                         </p>
                         <div class="btn-content">
@@ -89,8 +88,20 @@
             </div>
         </div>
 
-    
-
+        <div class="bg-green" id="announcement">
+            <div class="row">
+                <div class="col-md-3 img">
+                    <img src="img\Dr Richard Allsopp.jpg" alt="The Late Hon. Dr Richard Allsopp">
+                </div>
+                <div class="col-md-9 bio-preview">
+                    <h2>The University of Guyana Confers an Honorary Doctorate on Hon Dr Richard Allsopp</h2>
+                    <h3>Gradus Honorarius Posthumus Communis</h3>
+                    <p>Dr. Richard Allsopp was a prominent Guyanese linguist and lexicographer, renowned for his Dictionary of Caribbean English Usage (1996), which documents Caribbean dialects and expressions. Through his Caribbean Lexicography Project, Allsopp validated Caribbean English as a legitimate linguistic form, enriched by African, European, and indigenous influences. He held various influential positions at the University of the West Indies, shaping Caribbean education and promoting regional linguistic identity globally.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
     </div>
     </div>
     

@@ -26,7 +26,7 @@
 </head>
 <body>
     <div class="rec">
-    <div class="intro w-100">
+    <div class="intro ">
         <div class="">
             <div class="row w-100">
                 <div class="col-md-6 main-pic" style="background-image: url('img/ken-singh.jpeg');">

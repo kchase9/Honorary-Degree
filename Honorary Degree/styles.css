@@ -123,16 +123,32 @@ table{
     margin: 96px;
 }
 
+#announcement .bio-preview  {
+    text-align: right;
+}
+
 #announcement h2{
     color: white;
+    font-size: 36px;
     font-weight: 400;
     margin-bottom: 48px;
 }
 
+#announcement h3{
+    color: white;
+    font-style: italic;
+}
+
 #announcement p{
+    color: white;
     font-size: 20px;
 }
 
+#announcement .img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 .main-pic{
     background-position: center center;
@@ -242,7 +258,7 @@ table{
 #bio-preview{
     min-height: 80vh;
     display: flex;
-    text-align: left;
+    text-align: start;
     flex-direction: column;
     align-items: center;
     justify-content: center;

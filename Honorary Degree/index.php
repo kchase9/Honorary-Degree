@@ -129,12 +129,6 @@
                     <th>Date</th>
                 </tr>
                 <tr class="table-nav">
-                    <td><a href="desiree.php">Hon Madame Desiree Bernard</a></td>
-                    <td><a href="desiree.php">Doctorate of Laws</a></td>
-                    <td><a href="desiree.php">Independent Ceremony</a></td>
-                    <td><a href="desiree.php">2007</a></td>
-                </tr>
-                <tr class="table-nav">
                     <td><a href="clive-lloyd.php">Sir Clive Lloyd</a></td>
                     <td><a href="clive-lloyd.php">Doctorate of Letters</a></td>
                     <td><a href="clive-lloyd.php">56th Convocation</a></td>
@@ -177,6 +171,12 @@
                     <td><a href="letitia.php">1st February, 2023</a></td>
                 </tr>
                 <tr class="table-nav">
+                    <td><a href="desiree.php">Hon Madame Desiree Bernard</a></td>
+                    <td><a href="desiree.php">Doctorate of Laws</a></td>
+                    <td><a href="desiree.php">Independent Ceremony</a></td>
+                    <td><a href="desiree.php">15th February, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
                     <td><a href="keith.php">Keith Waithe</a></td>
                     <td><a href="keith.php">Doctorate in Excellence in the Arts</a></td>
                     <td><a href="keith.php">57th Convocation</a></td>
@@ -207,16 +207,16 @@
                     <td><a href="cch.php">11th November, 2023</a></td>
                 </tr>
                 <tr class="table-nav">
-                    <td><a href="jeannette-allsop.php">Jeanette Allsop</a></td>
+                    <td><a href="jeannette-allsop.php">Jeanette Allsopp</a></td>
                     <td><a href="jeannette-allsop.php">Doctorate of Letters</a></td>
                     <td><a href="jeannette-allsop.php">57th Convocation</a></td>
                     <td><a href="jeannette-allsop.php">11th November, 2023</a></td>
                 </tr>
                 <tr class="table-nav">
-                    <td><a href="richard-allsop.php">Richard Allsop</a></td>
-                    <td><a href="richard-allsop.php">Doctorate of Letters</a></td>
-                    <td><a href="richard-allsop.php">57th Convocation</a></td>
-                    <td><a href="richard-allsop.php">11th November, 2023</a></td>
+                    <td><a href="jeannette-allsop.php#announcement">Richard Allsopp</a></td>
+                    <td><a href="jeanette-allsop.php#announcement">Doctorate of Letters</a></td>
+                    <td><a href="jeanette-allsop.php#announcement">57th Convocation</a></td>
+                    <td><a href="jeanette-allsop.php#announcement">11th November, 2023</a></td>
                 </tr>
                 <tr class="table-nav">
                     <td><a href="rohan.php">Rohan Kanhai</a></td>
