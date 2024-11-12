@@ -57,8 +57,6 @@
                 
                 <div class="video-container">
                     <iframe 
-                    width="1236" 
-                    height="695" 
                     src="https://drive.google.com/file/d/1b21vXJN1U0HCpa1kMaJSWeyawDJJY00V/preview" 
                     title="Conferral of an Honorary Doctorate of Letters for Hon Dr Abdool Gafoor" frameborder="0" 
                     allow="autoplay;" 

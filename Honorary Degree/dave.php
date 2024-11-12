@@ -23,7 +23,7 @@
 </head>
 <body>
     <div class="rec">
-    <div class="intro w-100">
+    <div class="intro">
         <div class="">
             <div class="row w-100">
             <div class="col-md-6 main-pic" style="background-image: url('img/dave-martins.png');"></div>
@@ -54,8 +54,6 @@
 
         <div class="video-container">
             <iframe 
-            width="1236" 
-            height="695" 
             src="https://www.youtube.com/embed/6N769-sFVfA" 
             title="Robing of Dr Dave Martins | 56th Convocation Ceremony University of Guyana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>

@@ -50,8 +50,6 @@
             </div>
             <div class="video-container">
                 <iframe 
-                width="1236" 
-                height="695" 
                 src="https://www.youtube.com/embed/96p9UibMazI" 
                 title="Conferral of an Honorary Doctorate of Laws  on Justice Hon Dr Desiree Bernard retd" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

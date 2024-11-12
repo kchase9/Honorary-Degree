@@ -56,7 +56,7 @@
         </div>
 
         <div class="video-container">
-            <iframe width="1236" height="695" src="https://www.youtube.com/embed/pZUENP504Bg" title="Reading of Dr Ameena Gafoors Citation | University of Guyana&#39;s  56th Convocation Ceremony 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/pZUENP504Bg" title="Reading of Dr Ameena Gafoors Citation | University of Guyana&#39;s  56th Convocation Ceremony 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div id="page-heading">

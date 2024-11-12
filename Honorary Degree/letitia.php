@@ -56,7 +56,7 @@
             <hr>
         </div>
         <div class="video-container">
-            <iframe width="1236" height="695" src="https://www.youtube.com/embed/D59_C4p80t4" title="University of Guyana Conferral of Honorary Degree on Black Panther Star Letitia Wright" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/D59_C4p80t4" title="University of Guyana Conferral of Honorary Degree on Black Panther Star Letitia Wright" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div id="page-heading">

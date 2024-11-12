@@ -56,8 +56,6 @@
 
         <div class="video-container">
             <iframe 
-                width="1236" 
-                height="695" 
                 src="https://drive.google.com/file/d/1yxovEtaEaI0RPsj1Ze-JkraNe10vI4pj/preview" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerpolicy="strict-origin-when-cross-origin" 

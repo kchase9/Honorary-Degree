@@ -54,8 +54,6 @@
 
         <div class="video-container">
             <iframe 
-                width="1236" 
-                height="695"
                 src="https://www.youtube.com/embed/yX0lgY9V8lc?start=1449" title="The University of Guyana 57th Convocation | Sixth Ceremony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 

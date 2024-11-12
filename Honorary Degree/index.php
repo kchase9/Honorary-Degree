@@ -16,11 +16,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
-    <!-- Import Merriweather (Table) -->
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
-    
-
     <title>Honorary Degrees</title>
 </head>
 <body>
@@ -170,6 +165,12 @@
                     <td><a href="keith.php">Doctorate in Excellence in the Arts</a></td>
                     <td><a href="keith.php">57th Convocation</a></td>
                     <td><a href="keith.php">9th November, 2023</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="bernadette.php">Bernadette Persaud</a></td>
+                    <td><a href="bernadette.php">Doctorate in Excellence in the Arts</a></td>
+                    <td><a href="bernadette.php">57th Convocation</a></td>
+                    <td><a href="bernadette.php">9th November, 2023</a></td>
                 </tr>
                 <tr class="table-nav">
                     <td><a href="frank.php">Frank Woon-A-Tai</a></td>
