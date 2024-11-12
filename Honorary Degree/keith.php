@@ -27,61 +27,65 @@
 <body>
     
     <div class="rec">
-    <div class="intro w-100" style="background-image: url('img/keith-waithe.jpg');">
-        <div class="container">
-            <div class="col-lg-6 col-md-12 ">
-                <div class="align-items-start d-flex mb-3 flex-column">
+    <div class="intro">
+        <div class="">
+            <div class="row w-100">
+                <div class="col-md-6 main-pic" style="background-image: url('img/Keith Waithe~2.jpg');">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                <div class="align-items-right bg-green" id="bio-preview">
                     <h1 class="p-3">Keith Waithe</h1>
-                    <h2 class="p-3">Doctorate in Excellence in the Arts</h2>
-                    <h3 class="p-3">Date: 9th November, 2023</h3>
                     <p class="p-3">A virtuoso flautist, Waithe founded the Macusi Players, a jazz band inspired by the Macushi people of Guyana, blending jazz, classical, and global sounds with his unique "vocal gymnastics" technique. Born in Georgetown, Waithe’s musical journey began with the trumpet, but he soon fell in love with the flute, earning a British Council scholarship in 1973 to study at the University of Surrey and the Royal Military School of Music. In the 1990s, he established Essequibo Music to support Black British artists and advance cultural education. His performances, which often evoke the natural beauty of Guyana’s rainforests using his collection of over 200 flutes, have graced festivals and events worldwide, including the Commonwealth Heads of Government meeting. Celebrated with numerous awards, including the Wordsworth McAndrew Award and the WOM@TT Best of British Award, Waithe was invited to perform at Guyana’s golden jubilee in 2016.
                     </p>
-                    <div class="">
+                    <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>
                     </div>
                 </div>
                 
+            </div> 
             </div>
+            
 
             
         </div>
     
     </div>
     
-    <div class="container">
-        <div id="gallery">
-            <div class="text-lg-end">
-                <h2 id="h-gal">Gallery</h2>
-                <hr>
-            </div>
+    <div class="content">
+        <div id="page-heading">
+            <h2 id="h-gal">Reading Citation for Hon Dr Keithe Waite</h2>
+            <hr>
+        </div>
+
+        <div class="video-container">
+            <iframe 
+                width="1236" 
+                height="695" 
+                src="https://drive.google.com/file/d/1yxovEtaEaI0RPsj1Ze-JkraNe10vI4pj/preview" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
         </div>
 
         <!--  Image Gallery, adapted from Bootstrap -->
+        <div id="page-heading">
+            <h2 id="h-gal">Highlights from the Robing and Life of Hon Dr Keithe Waite</h2>
+            <hr>
+        </div>
 
         <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center align-self-center">
-                <div id="img-carousel" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <!-- Those buttons below -->
-                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div class="col-lg-12">
+                <div class="masonry-container">
+                    <div class="masonry-item">
+                        <img src="img/Keith Waithe Flute Collection 2011.jpg" class="img-fluid">
                     </div>
-
-                    <!-- Images -->
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/Keith Waithe Flute Collection 2011.jpg" class="d-block">
+                    <div class="masonry-item">
+                        <img src="img/keith-waithe.jpg" class="img-fluid">
                     </div>
+                    <div class="masonry-item">
+                        <img src="img/Keith Waithe~2.jpg" class="img-fluid">
                     </div>
-                    <!--  Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </div>

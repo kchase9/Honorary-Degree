@@ -26,63 +26,64 @@
 </head>
 <body>
     <div class="rec">
-    <div class="intro w-100" style="background-image: url('img/joseph-perreira.png');">
-        <div class="container">
-            <div class="col-lg-6 col-md-12 ">
-                <div class="align-items-start d-flex mb-3 flex-column">
+    <div class="intro">
+        <div class="">
+            <div class="row w-100">
+                <div class="col-md-6 main-pic" style="background-image: url('img/Joseph Perreira~2.jpg');"></div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="align-items-right bg-green" id="bio-preview">
                     <h1 class="p-3">Joseph "Reds" Perreira</h1>
-                    <h2 class="p-3">Doctorate in Sports and Civic Engagement </h2>
-                    <h3 class="p-3">Date: 18th Novemeber, 2023</h3>
                     <p class="p-3">Born in Essequibo, Guyana, Perreira has been based in St. Lucia since 1984, where he initially led the OECS Sports Desk. Known for his insightful and passionate cricket commentary, he is a cherished figure in cricket circles and has leveraged his platform to promote unity and social change. At the ceremony, Perreira, now 84, expressed his gratitude, highlighting sports' power to drive community engagement and inspire. He encouraged graduates to pursue their dreams with resilience, reinforcing his legacy of dedication to sports and civic values. This honor celebrates his significant contributions to the sports commentary field and his influence on generations of sports enthusiasts.
                     </p>
-                    <div class="">
+                    <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
                         <a href="#h-gal" class="btn">See More</a>
                     </div>
                 </div>
+                </div>
+            </div>
+            
+                
                 
             </div>
 
             
-        </div>
-    
     </div>
     
-    <div class="container">
-        <div id="gallery">
-            <div class="text-lg-end">
-                <h2 id="h-gal">Gallery</h2>
-                <hr>
-            </div>
+    <div class="content">
+        <div id="page-heading">
+            <h2 id="h-gal">Reading Citation for Hon Dr Joseph "Reds" Perreira</h2>
+            <hr>
+        </div>
+
+        <div class="video-container">
+            <iframe
+                width="1236" 
+                height="695" 
+                src="https://drive.google.com/file/d/1jat_qnCLx1E5Q31MzZzd5eO2N0whphEq/preview" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
         </div>
 
         <!--  Image Gallery, adapted from Bootstrap -->
-
+        <div id="page-heading">
+            <h2 id="h-gal">Highlights from the Robing and Life of Hon Dr Joseph "Reds" Perreira</h2>
+            <hr>
+        </div>
         <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center align-self-center">
-                <div id="img-carousel" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <!-- Those buttons below -->
-                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div class="col-lg-12">
+                <div class="masonry-container">
+                <div class="carousel-inner">
+                    <div class="masonry-item">
+                        <img src="img/J2oseph-Perreira copy (1).jpg" class="img-fluid">
                     </div>
-
-                    <!-- Images -->
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/J2oseph-Perreira copy (1).jpg" class="d-block">
+                    <div class="masonry-item">
+                        <img src="img/Joseph Perreira~2.jpg" class="img-fluid">
                     </div>
-                    </div>
-                    <!--  Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
+        </div>
         </div>
         
             

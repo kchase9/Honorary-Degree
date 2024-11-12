@@ -31,7 +31,7 @@
     <div class="intro w-100">
         <div class="">
             <div class="row w-100">
-                <div class="col-md-6 main-pic" style="background-image: url('img/Allsop.jpg');">
+                <div class="col-md-6 main-pic" style="background-image: url('img/Dr Jeanette Allsopp~2.jpg');">
                 </div>
 
                 <div class="col-md-6 col-sm-12 ">
