@@ -30,11 +30,11 @@
 
                 <div class="col-md-6 col-sm-12 ">
                 <div class="align-items-right bg-green" id="bio-preview">
-                    <h1 class="p-3">Clive Lloyd</h1>
+                    <h1 class="p-3">Hon. Dr. Clive Lloyd</h1>
                     <p class="p-3">Born in Queenstown, Georgetown, Lloyd is celebrated as one of the most successful West Indian cricket captains, leading his team to an unmatched 27-game unbeaten streak and consecutive Cricket World Cup victories in 1975 and 1979. Lloyd's accolades include being appointed a Commander of the Order of the British Empire (CBE) for his services to the sport. Beyond his cricketing career, he has contributed as a coach and served with the International Cricket Council. In his acceptance speech, Lloyd advocated for addressing societal issues, including domestic abuse and racism, and highlighted the need for the development of sports facilities, urging upgrades to the Providence Stadium as a tribute to Caribbean sports legends.</p>
                     <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+                        <a href="#content" class="btn">See More</a>
                     </div>
                 </div>
                 
@@ -47,7 +47,7 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
                 <h2 id="h-gal">Highlights from the Robing of Hon Dr Clive Lloyd</h2>
                 <hr>

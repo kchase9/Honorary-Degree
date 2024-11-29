@@ -21,7 +21,7 @@
 <body>
     
     <div class="body">
-        <div class="w-100 hero-section text-center">
+        <div class="w-100 hero-section">
             <h1 id="header_h1">
                 <span>
                     About the<br>Honorary Degree
@@ -111,6 +111,30 @@
                     <th>Degree</th>
                     <th>Occasion</th>
                     <th>Date</th>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="laura.php">Laura George</a></td>
+                    <td><a href="laura.php">Doctorate for Outstanding Community Development and Advocacy</a></td>
+                    <td><a href="laura.php">52nd Convocation</a></td>
+                    <td><a href="laura.php">10th November, 2018</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="yesu.php">Yesu Persaud</a></td>
+                    <td><a href="yesu.php">Doctorate of Letters</a></td>
+                    <td><a href="yesu.php">52nd Convocation</a></td>
+                    <td><a href="yesu.php">10th November, 2018</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="eddy.php">Eddy Grant</a></td>
+                    <td><a href="eddy.php">Doctorate of Letters</a></td>
+                    <td><a href="eddy.php">52nd Convocation</a></td>
+                    <td><a href="eddy.php">10th November, 2018</a></td>
+                </tr>
+                <tr class="table-nav">
+                    <td><a href="jay.php">Jairaj "Jay" Sobhraj</a></td>
+                    <td><a href="jay.php">Doctorate of Letters</a></td>
+                    <td><a href="jay.php">52nd Convocation</a></td>
+                    <td><a href="jay.php">10th November, 2018</a></td>
                 </tr>
                 <tr class="table-nav">
                     <td><a href="clive-lloyd.php">Sir Clive Lloyd</a></td>
@@ -220,6 +244,8 @@
                     <td><a href="joseph.php">57th Convocation</a></td>
                     <td><a href="joseph.php">18th November, 2023</a></td>
                 </tr>
+                
+                
 
 
                     

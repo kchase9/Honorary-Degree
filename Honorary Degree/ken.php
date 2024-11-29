@@ -25,15 +25,15 @@
     <div class="intro ">
         <div class="">
             <div class="row w-100">
-                <div class="col-md-6 main-pic" style="background-image: url('img/ken-singh.jpeg');">
+                <div class="col-md-6 main-pic" style="background-image: url('img/ken-singh.jpeg');background-position: center right">
                 </div>
                 <div class="col-md-6 col-sm-12 ">
                 <div class="align-items-right bg-green" id="bio-preview">
-                    <h1 class="p-3">Kanhai Ken Singh</h1>
+                    <h1 class="p-3">Hon. Dr. Kanhai Ken Singh</h1>
                     <p class="p-3">Kanhai Ken Singh is a Guyana-born Canadian entrepreneur and influential business leader. Owner of prominent companies like Atlas Cargo and Canadian Customs Brokers Inc., Singh has led in fields spanning transportation, security, customs, and trade. Born in Strangroen, East Coast Demerara, he moved to Canada in 1977 and earned degrees in Sociology and Business Administration from York University, followed by specialized certifications in traffic, cargo insurance, and project management. Known for his global charitable initiatives over the past 40 years, Singh has received numerous awards, including Ottawa’s Businessman of the Year (2005) and honors from Singapore and Tanzania. Active on advisory boards at York University and Humber College, and a member of the Indo-Canadian Chambers of Commerce, Singh remains dedicated to inspiring others through his message on the importance of hard work, specialization, and lifelong learning.</p>
                     <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+                        <a href="#content" class="btn">See More</a>
                     </div>
                 </div>
                 
@@ -46,7 +46,7 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
             <h2 id="h-gal">Robing and Conferral of Hon Dr Kanhai Ken Singh</h2>
             <hr>
@@ -60,7 +60,7 @@
         <!--  Image Gallery, adapted from Bootstrap -->
 
         <div id="page-heading">
-            <h2 id="h-gal">Highlights from the Robing of Hon Dr Janhai Ken Singh</h2>
+            <h2 id="h-gal">Highlights from the Robing of Hon Dr Kanhai Ken Singh</h2>
             <hr>
         </div>
 

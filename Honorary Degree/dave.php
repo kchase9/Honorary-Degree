@@ -29,11 +29,11 @@
             <div class="col-md-6 main-pic" style="background-image: url('img/dave-martins.png');"></div>
              <div class="col-md-6 col-sm-12 ">
                 <div class="align-items-right bg-green" id="bio-preview">
-                    <h1 class="p-3">Dave Martins</h1>
+                    <h1 class="p-3">Hon. Dr. Dave Martins</h1>
                     <p class="p-3">Dr. Dave Martins, a distinguished Guyanese musician, songwriter, and cultural icon, was born on April 10, 1935. Martins became renowned for his powerful use of Guyanese Creole and English, crafting songs and stories that authentically captured Caribbean life and identity. From 2017 to 2018, he served as UG’s second Artist-in-Residence, traveling throughout Guyana to share his music, culture, and pride through concerts, lectures, and masterclasses. His contributions were immortalized in the university-produced documentary, The Man Behind the Music: DAVE MARTINS. After his passing on August 18, 2024, following a prolonged illness, he was celebrated as a “Caribbean Hero” and “Timeless Voice,” leaving a legacy of cultural pride and artistic excellence.</p>
                     <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+                        <a href="#content" class="btn">See More</a>
                     </div>
                 </div>
                 
@@ -46,9 +46,9 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
-                <h2 id="h-gal">Robing of Hon Dr. Dave Martins</h2>
+                <h2 id="h-gal">Robing of Hon Dr Dave Martins</h2>
                 <hr>
         </div>
 

@@ -206,6 +206,10 @@ table{
     padding: 45px 90px;
 }
 
+.p-3{
+    text-align: left;
+}
+
 .hero-section{
     text-align: center;
     padding: 81px 100px;
@@ -322,7 +326,7 @@ hr{
     text-align: center;
 }
 
-.rec .content{
+.rec #content{
     margin: 0;
     background: none;
     border: none;

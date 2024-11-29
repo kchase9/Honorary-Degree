@@ -30,12 +30,12 @@
                 </div>
                 <div class="col-md-6 col-sm-12 ">
                 <div class="align-items-right bg-green" id="bio-preview">
-                    <h1 class="p-3">Letitia Wright</h1>
+                    <h1 class="p-3">Hon. Dr. Letitia Wright</h1>
                     <p class="p-3">Letitia Wright is a British actress born in Guyana and celebrated for her role as Shuri in Black Panther. Leaving Guyana at age 7, Wright expressed profound gratitude for the recognition, reflecting on her Guyanese upbringing and her family’s struggles to build a better future. She highlighted the values of humility, patience, and faith as guiding forces in her journey through numerous challenges in the acting world, attributing her success to perseverance and belief. During her visit, Wright also received the Key to the City of Georgetown, a symbolic honor that she pledged to uphold with dignity. The ceremony further celebrated her roots, with the president presenting her with a framed copy of her Guyanese birth certificate and her parents’ marriage certificate, deepening her connection to her homeland.
                     </p>
                     <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+                        <a href="#content" class="btn">See More</a>
                     </div>
                         
                     
@@ -50,7 +50,7 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
             <h2 id="h-gal">Conferral of an Honorary Doctorate of Letters on Hon Dr Letitia Wright</h2>
             <hr>

@@ -28,11 +28,11 @@
                 <div class="col-md-6 main-pic" style="background-image: url('img/Frank-2-phvbq7j577u2b2xmwgi8ake9e68e1rhhuei7rx52b2 (1).jpg');"></div>
                     <div class="col-md-6 col-sm-12 ">
                     <div class="align-items-right bg-green" id="bio-preview">
-                        <h1 class="p-3">Frank Woon-A-Tai</h1>
+                        <h1 class="p-3">Hon. Dr. Frank Woon-A-Tai</h1>
                         <p class="p-3">With over 50 years of experience, Woon-A-Tai is recognized as a Supreme International Instructor, Examiner, and Judge. He founded the IKD, expanding it to 80 regions in 57 countries, and is celebrated for bringing karate master Nakayama to Guyana in 1974 and 1979. His numerous accolades include being the first JKA ISKF Instructor promoted to Seventh Dan and serving as Vice-Chairman of the ISKF Technical Committee. He holds a B.A. in Japanese Studies from the University of Toronto and was honored with Guyana’s Medal of Service in 2011 and the French Guiana Medal of Honour. His autobiography, Shu-Ha-Ri: My Life in Japanese Karate, reflects on his journey from Guyana to a global karate legacy. His wife, Maureen, also a Ninth Dan, and their children—including Ken, a Sixth Dan and four-time World Champion—have contributed significantly to the karate world, marking a family legacy of excellence.</p>
                         <div class="btn-content">
                             <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                            <a href="#h-gal" class="btn">See More</a>
+                            <a href="#content" class="btn">See More</a>
                         </div>
                     </div>
                     
@@ -46,7 +46,7 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
                 <h2 id="h-gal">Conferral of an Honorary Doctorate of Sports and Civic Engagement on  Hon Dr Frank Woon-A-Tai</h2>
                 <hr>

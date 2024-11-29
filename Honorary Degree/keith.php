@@ -30,12 +30,12 @@
                 </div>
                 <div class="col-md-6 col-sm-12">
                 <div class="align-items-right bg-green" id="bio-preview">
-                    <h1 class="p-3">Keith Waithe</h1>
+                    <h1 class="p-3">Hon. Dr. Keith Waithe</h1>
                     <p class="p-3">A virtuoso flautist, Waithe founded the Macusi Players, a jazz band inspired by the Macushi people of Guyana, blending jazz, classical, and global sounds with his unique "vocal gymnastics" technique. Born in Georgetown, Waithe’s musical journey began with the trumpet, but he soon fell in love with the flute, earning a British Council scholarship in 1973 to study at the University of Surrey and the Royal Military School of Music. In the 1990s, he established Essequibo Music to support Black British artists and advance cultural education. His performances, which often evoke the natural beauty of Guyana’s rainforests using his collection of over 200 flutes, have graced festivals and events worldwide, including the Commonwealth Heads of Government meeting. Celebrated with numerous awards, including the Wordsworth McAndrew Award and the WOM@TT Best of British Award, Waithe was invited to perform at Guyana’s golden jubilee in 2016.
                     </p>
                     <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+                        <a href="#content" class="btn">See More</a>
                     </div>
                 </div>
                 
@@ -48,9 +48,9 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
-            <h2 id="h-gal">Reading Citation for Hon Dr Keithe Waite</h2>
+            <h2 id="h-gal">Reading Citation for Hon Dr Keith Waite</h2>
             <hr>
         </div>
 
@@ -64,7 +64,7 @@
 
         <!--  Image Gallery, adapted from Bootstrap -->
         <div id="page-heading">
-            <h2 id="h-gal">Highlights from the Robing and Life of Hon Dr Keithe Waite</h2>
+            <h2 id="h-gal">Highlights from the Robing and Life of Hon Dr Keith Waite</h2>
             <hr>
         </div>
 

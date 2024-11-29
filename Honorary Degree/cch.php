@@ -29,11 +29,11 @@
                 <div class="col-md-6 main-pic" style="background-image: url('img/CCH Pounder~2.jpg');"></div>
                 <div class="col-md-6 col-sm-12 ">
                 <div class="align-items-right bg-green" id="bio-preview">
-                    <h1 class="p-3">CCH Pounder</h1>
+                    <h1 class="p-3">Hon. Dr. CCH Pounder</h1>
                     <p class="p-3">Originally from Georgetown, Guyana, CCH Pounder is an acclaimed actress recognized for her roles in Avatar, NCIS: New Orleans, The Shield, and other popular productions, with multiple Emmy nominations and a Grammy nomination highlighting her diverse talents. Beyond her impactful acting career, Pounder is a dedicated arts patron and collector, co-founding the Musée Boribana, a contemporary art museum in Dakar, Senegal. Honored with prestigious awards, including Guyana’s Cacique’s Crown of Honour and Senegal’s Commander of The National Order of the Lion, Pounder’s contributions span across the arts and philanthropy. She will be awarded an Honorary Doctorate for Excellence in Arts by the University of Guyana in recognition of her achievements and cultural influence.</p>
                     <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+                        <a href="#content" class="btn">See More</a>
                     </div>
                 </div>
                 
@@ -46,10 +46,10 @@
     
     </div>
     
-    <div class="container">
+    <div id="content">
         <div id="page-heading">
-                <h2 id="h-gal">Conferral of an Honorary Doctorate of Excellence in Arts on Hon Dr Carol Christine Hilaria Pounder</h2>
-                <hr>
+            <h2 id="h-gal">Conferral of an Honorary Doctorate for Excellence in Arts on Hon Dr Carol Christine Hilaria Pounder</h2>
+            <hr>
         </div>
 
         <div class="video-container">

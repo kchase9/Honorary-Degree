@@ -40,7 +40,7 @@
                     </p>
                     <div class="">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+                        <a href="#content" class="btn">See More</a>
                     </div>
                 </div>
                 
@@ -51,7 +51,7 @@
     
     </div>
     
-    <div class="container">
+    <div id="content">
         <div id="gallery">
             <div class="text-lg-end">
                 <h2 id="h-gal">Gallery</h2>

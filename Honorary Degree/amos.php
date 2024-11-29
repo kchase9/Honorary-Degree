@@ -36,7 +36,7 @@
                     </p>
                     <div class="btn-content">
                         <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                        <a href="#h-gal" class="btn">See More</a>
+                        <a href="#content" class="btn">See More</a>
                     </div>
                 </div>
 
@@ -47,9 +47,9 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
-            <h2 id="h-gal">The Eloquent Baroness Valerie Amos</h2>
+            <h2 id="h-gal">ighlights from the Robing and Life of The Eloquent Baroness Valerie Amos</h2>
             <hr>
         </div>
 

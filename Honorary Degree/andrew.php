@@ -29,12 +29,12 @@
                 </div>
                 <div class="col-md-6 col-sm-12 ">
                     <div class="align-items-right bg-green" id="bio-preview">
-                        <h1 class="p-3">William Andrew Boyle</h1>
+                        <h1 class="p-3">Hon. Dr. William Andrew Boyle</h1>
                         <p class="p-3">William Andrew Boyle, CEO of Eureka Medical Laboratories (EML), has done significant work in health and entrepreneurship. A microbiologist and visionary entrepreneur, Boyle has expanded EML to nine branches throughout Guyana and diversified into the oil and gas sector through a strategic partnership with Atlantic Offshore Medical Services. Born on May 11, 1964, Boyle attributes his success to the values of integrity and commitment taught by his grandfather. EML, under Boyle’s leadership, played a pivotal role in COVID-19 testing, collaborating with the government for airport screenings. His contributions have earned him honors like the 2018 Entrepreneur Laureate Award from the Anthony N. Sabga Caribbean Awards for Excellence and the Golden Arrow Award of Achievement. With his autobiography Aspire: Dare to Dream slated for release in early 2023, Boyle, at 58, continues to inspire others through his motto, “The sky is the limit.”
                         </p>
                         <div class="btn-content">
                             <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                            <a href="#h-gal" class="btn">See More</a>
+                            <a href="#content" class="btn">See More</a>
                         </div>
                     </div>
                 </div>
@@ -43,9 +43,9 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
-            <h2 id="h-gal">Highlights from the robing of the Honorable Dr. William Andrew Boyle</h2>
+            <h2 id="h-gal">Highlights from the robing of the Hon Dr William Andrew Boyle</h2>
             <hr>
         </div>
 

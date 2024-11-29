@@ -19,7 +19,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Abdool Gafoor</title>
+    <title>Eddy Grant</title>
 </head>
 <body>
     
@@ -27,12 +27,12 @@
         <div class="intro">
             <div class="">
                 <div class="row w-100">
-                    <div class="col-md-6 main-pic" style="background-image: url('img/Abdool Sattaur Gafoor~2.jpg');"></div>
+                    <div class="col-md-6 main-pic" style="background-image: url('img/Eddie-Grant.jpg'); background-position: center top"></div>
 
                     <div class="col-md-6 col-sm-12 ">
                         <div class="align-items-right bg-green" id="bio-preview">
-                            <h1 class="p-3">Hon. Dr. Abdool Gafoor</h1>
-                            <p class="p-3">Abdool Sattaur Gafoor, a prominent Guyanese businessman born in 1941 in Corentyne, Berbice, is the owner of Gafsons Industries Limited, a major company providing employment to thousands. Known for his integrity, intelligence, and approachable nature, he emphasizes keeping promises and fostering a positive, encouraging workplace, often inspiring his staff to explore their own entrepreneurial paths. Gafoor has represented Guyana abroad alongside three presidents on official visits and has received multiple awards for his contributions. A lover of fishing, reading, and music, he is celebrated as a kind and uplifting figure by his community and employees.
+                            <h1 class="p-3">Hon. Dr. Eddy Grant</h1>
+                            <p class="p-3">Eddy Grant, born Edmond Montague Grant on March 5, 1948, in Plaisance, British Guiana (now Guyana), is a renowned Guyanese-British musician celebrated for his genre-blending sound and socially conscious lyrics. In 1960, he moved to London, where he attended Acland Burghley Secondary Modern School and developed a passion for music. Grant co-founded The Equals in 1965, one of the UK's first racially integrated pop bands, achieving success with hits like "Baby, Come Back." After departing from The Equals in 1971, he pursued a solo career, producing notable tracks such as "Electric Avenue" and "I Don't Wanna Dance." Grant is also recognized for his anti-apartheid anthem "Gimme Hope Jo'anna." Beyond his musical contributions, he established Ice Records, promoting Caribbean music, and pioneered the "Ringbang" genre, reflecting his commitment to cultural fusion and innovation. 
                             </p>
                             <div class="btn-content">
                                 <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
@@ -48,41 +48,23 @@
             </div>
         
         </div>
-        
+
         <div id="content">
             <div id="page-heading">
-                    <h2 id="h-gal">Conferral of an Honorary Doctorate of Letters Hon Dr Abdool Garfoor</h2>
-                    <hr>
-                </div>
-                
-                <div class="video-container">
-                    <iframe 
-                    src="https://drive.google.com/file/d/1b21vXJN1U0HCpa1kMaJSWeyawDJJY00V/preview" 
-                    title="Conferral of an Honorary Doctorate of Letters for Hon Dr Abdool Gafoor" frameborder="0" 
-                    allow="autoplay;" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen></iframe>
-                </div>
+                <h2 id="h-gal">Highlights from the Robing of Hon Dr Eddy Grant</h2>
+                <hr>
+            </div>
 
-                <div id="page-heading">
-                    <h2 id="h-gal">Highlights from the Robing of Hon Dr Abdool Gafoor</h2>
-                    <hr>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="masonry-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="masonry-container">
                         <div class="masonry-item">
-                            <img src="img\Abdool Sattaur Gafoor~2.jpg" class="img-fluid">
-                            </div>
-                            <!-- <div class="masonry-item">
-                                <img src="img/Gafoor Abdool (1).jpg" class="img-fluid">
-                            </div> -->
+                        <img src="img\WhatsApp-Image-2018-11-10-at-11.03.29-PM-768x450.jpeg" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
-                
+        </div>
 
         </div>
     </div>

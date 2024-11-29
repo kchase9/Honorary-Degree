@@ -36,7 +36,7 @@
                         </p>
                         <div class="btn-content">
                             <a class="btn" href="index.php"><i class="fa-solid fa-house" style="background-color:none;"></i>  Home</a>
-                            <a href="#h-gal" class="btn">See More</a>
+                            <a href="#content" class="btn">See More</a>
                         </div>
                     </div>
                     
@@ -49,7 +49,7 @@
     
     </div>
     
-    <div class="content">
+    <div id="content">
         <div id="page-heading">
             <h2 id="h-gal">Conferral of an Honorary Doctorate of Laws on Justice Hon Dr Ameena Gafoor</h2>
             <hr>
